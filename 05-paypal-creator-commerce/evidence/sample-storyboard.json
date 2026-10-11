@@ -1,0 +1,32 @@
+{
+  "format": "evovid-creator-commerce-v1",
+  "board": {
+    "scenes": [
+      {
+        "accent": "lime",
+        "caption": "Launch a fictional Northlight coffee brand",
+        "seconds": 3,
+        "title": "Small batch. Big possibility."
+      },
+      {
+        "accent": "violet",
+        "caption": "A fictional creator story, built one thoughtful frame at a time.",
+        "seconds": 3,
+        "title": "Made with intention."
+      },
+      {
+        "accent": "cyan",
+        "caption": "Your story. Your rhythm. A little momentum.",
+        "seconds": 3,
+        "title": "From idea to first impression."
+      },
+      {
+        "accent": "orange",
+        "caption": "NORTHLIGHT / An original fictional launch concept",
+        "seconds": 3,
+        "title": "Make something worth sharing."
+      }
+    ],
+    "title": "Launch a fictional Northlight coffee brand"
+  }
+}
