@@ -1,0 +1,414 @@
+{
+  "project": {
+    "schema_version": 1,
+    "title": "Time / Find the extraordinary",
+    "mode": "demo",
+    "references": [
+      {
+        "id": "00000000-0000-0000-0000-000000000004",
+        "name": "Interstellar",
+        "category": "movie",
+        "year": 2014
+      }
+    ],
+    "constraints": {
+      "goal": "Find a little wonder in an ordinary day",
+      "duration": 16,
+      "aspect": "16:9",
+      "pace": "balanced",
+      "budget": "phone-only"
+    },
+    "evidence": {
+      "entities": [
+        {
+          "id": "00000000-0000-0000-0000-00000000001b",
+          "name": "2001: A Space Odyssey",
+          "category": "movie",
+          "year": 1968,
+          "rank": 1,
+          "affinity": null,
+          "explainability": null
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000001c",
+          "name": "Contact",
+          "category": "movie",
+          "year": 1997,
+          "rank": 2,
+          "affinity": null,
+          "explainability": null
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000001d",
+          "name": "Arrival",
+          "category": "movie",
+          "year": 2016,
+          "rank": 3,
+          "affinity": null,
+          "explainability": null
+        }
+      ],
+      "tags": [
+        {
+          "id": "fixture:theme:time",
+          "name": "Time",
+          "rank": 1,
+          "affinity": null
+        },
+        {
+          "id": "fixture:theme:exploration",
+          "name": "Exploration",
+          "rank": 2,
+          "affinity": null
+        },
+        {
+          "id": "fixture:theme:communication",
+          "name": "Communication",
+          "rank": 3,
+          "affinity": null
+        }
+      ],
+      "warnings": [
+        "Synthetic DEMO associations. No Qloo API calls were made. No synthetic affinity scores are displayed."
+      ],
+      "source": "demo_fixture"
+    },
+    "briefs": [
+      {
+        "title": "Time / Find the extraordinary",
+        "strategy": "Find the extraordinary",
+        "theme": "Time",
+        "audience_hypothesis": "For viewers curious about time. This is a creative hypothesis, not a demographic or sensitive-trait inference.",
+        "logline": "Find a little wonder in an ordinary day. A 16-second original study of time in one familiar room.",
+        "visual_direction": "Balanced pacing; original geometric compositions; a citrus and ink palette. EvoVid creative interpretation.",
+        "sound_direction": "Record original room tone and a soft percussive motif. No reference soundtrack is licensed or included.",
+        "palette": [
+          "#202635",
+          "#daed97",
+          "#f7f3e8"
+        ],
+        "evidence_ids": [
+          "fixture:theme:time",
+          "00000000-0000-0000-0000-00000000001b"
+        ],
+        "scenes": [
+          {
+            "title": "Notice",
+            "caption": "In one familiar room, frame a small object that suggests time. Make the first image ask a question.",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:time",
+              "00000000-0000-0000-0000-00000000001b"
+            ]
+          },
+          {
+            "title": "Cross a threshold",
+            "caption": "Let a person notice a detail. Explore time through a gesture, without reenacting the reference.",
+            "seconds": 4,
+            "camera": "push",
+            "evidence_ids": [
+              "fixture:theme:time",
+              "00000000-0000-0000-0000-00000000001b"
+            ]
+          },
+          {
+            "title": "See it differently",
+            "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:time",
+              "00000000-0000-0000-0000-00000000001b"
+            ]
+          },
+          {
+            "title": "Leave a question",
+            "caption": "Return to the opening composition with one visible change. End on time, leaving space for interpretation.",
+            "seconds": 4,
+            "camera": "pan",
+            "evidence_ids": [
+              "fixture:theme:time",
+              "00000000-0000-0000-0000-00000000001b"
+            ]
+          }
+        ],
+        "interpretation": "EvoVid deterministic creative proposal; these visual, sound and story choices are not Qloo conclusions."
+      },
+      {
+        "title": "Exploration / Follow a connection",
+        "strategy": "Follow a connection",
+        "theme": "Exploration",
+        "audience_hypothesis": "For viewers curious about exploration. This is a creative hypothesis, not a demographic or sensitive-trait inference.",
+        "logline": "Find a little wonder in an ordinary day. A 16-second original study of exploration in one familiar room.",
+        "visual_direction": "Balanced pacing; original geometric compositions; a rose and aubergine palette. EvoVid creative interpretation.",
+        "sound_direction": "Record original room tone and a restrained melodic texture. No reference soundtrack is licensed or included.",
+        "palette": [
+          "#322838",
+          "#efadbc",
+          "#f7f3e8"
+        ],
+        "evidence_ids": [
+          "fixture:theme:exploration",
+          "00000000-0000-0000-0000-00000000001c"
+        ],
+        "scenes": [
+          {
+            "title": "Two separate worlds",
+            "caption": "In one familiar room, frame a small object that suggests exploration. Make the first image ask a question.",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:exploration",
+              "00000000-0000-0000-0000-00000000001c"
+            ]
+          },
+          {
+            "title": "A shared detail",
+            "caption": "Let a person notice a detail. Explore exploration through a gesture, without reenacting the reference.",
+            "seconds": 4,
+            "camera": "push",
+            "evidence_ids": [
+              "fixture:theme:exploration",
+              "00000000-0000-0000-0000-00000000001c"
+            ]
+          },
+          {
+            "title": "A small exchange",
+            "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:exploration",
+              "00000000-0000-0000-0000-00000000001c"
+            ]
+          },
+          {
+            "title": "A changed ritual",
+            "caption": "Return to the opening composition with one visible change. End on exploration, leaving space for interpretation.",
+            "seconds": 4,
+            "camera": "pan",
+            "evidence_ids": [
+              "fixture:theme:exploration",
+              "00000000-0000-0000-0000-00000000001c"
+            ]
+          }
+        ],
+        "interpretation": "EvoVid deterministic creative proposal; these visual, sound and story choices are not Qloo conclusions."
+      },
+      {
+        "title": "Communication / Make a small discovery",
+        "strategy": "Make a small discovery",
+        "theme": "Communication",
+        "audience_hypothesis": "For viewers curious about communication. This is a creative hypothesis, not a demographic or sensitive-trait inference.",
+        "logline": "Find a little wonder in an ordinary day. A 16-second original study of communication in one familiar room.",
+        "visual_direction": "Balanced pacing; original geometric compositions; a lagoon and cream palette. EvoVid creative interpretation.",
+        "sound_direction": "Record original room tone and a gentle rhythmic pulse. No reference soundtrack is licensed or included.",
+        "palette": [
+          "#173e43",
+          "#8ddad3",
+          "#f7f3e8"
+        ],
+        "evidence_ids": [
+          "fixture:theme:communication",
+          "00000000-0000-0000-0000-00000000001d"
+        ],
+        "scenes": [
+          {
+            "title": "An ordinary object",
+            "caption": "In one familiar room, frame a small object that suggests communication. Make the first image ask a question.",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:communication",
+              "00000000-0000-0000-0000-00000000001d"
+            ]
+          },
+          {
+            "title": "An unexpected clue",
+            "caption": "Let a person notice a detail. Explore communication through a gesture, without reenacting the reference.",
+            "seconds": 4,
+            "camera": "push",
+            "evidence_ids": [
+              "fixture:theme:communication",
+              "00000000-0000-0000-0000-00000000001d"
+            ]
+          },
+          {
+            "title": "A playful experiment",
+            "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:communication",
+              "00000000-0000-0000-0000-00000000001d"
+            ]
+          },
+          {
+            "title": "The quiet reveal",
+            "caption": "Return to the opening composition with one visible change. End on communication, leaving space for interpretation.",
+            "seconds": 4,
+            "camera": "pan",
+            "evidence_ids": [
+              "fixture:theme:communication",
+              "00000000-0000-0000-0000-00000000001d"
+            ]
+          }
+        ],
+        "interpretation": "EvoVid deterministic creative proposal; these visual, sound and story choices are not Qloo conclusions."
+      }
+    ],
+    "brief_index": 0,
+    "scenes": [
+      {
+        "title": "Notice",
+        "caption": "In one familiar room, frame a small object that suggests time. Make the first image ask a question.",
+        "seconds": 4,
+        "camera": "locked",
+        "evidence_ids": [
+          "fixture:theme:time",
+          "00000000-0000-0000-0000-00000000001b"
+        ]
+      },
+      {
+        "title": "Cross a threshold",
+        "caption": "Let a person notice a detail. Explore time through a gesture, without reenacting the reference.",
+        "seconds": 4,
+        "camera": "push",
+        "evidence_ids": [
+          "fixture:theme:time",
+          "00000000-0000-0000-0000-00000000001b"
+        ]
+      },
+      {
+        "title": "See it differently",
+        "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+        "seconds": 4,
+        "camera": "locked",
+        "evidence_ids": [
+          "fixture:theme:time",
+          "00000000-0000-0000-0000-00000000001b"
+        ]
+      },
+      {
+        "title": "Leave a question",
+        "caption": "Return to the opening composition with one visible change. End on time, leaving space for interpretation.",
+        "seconds": 4,
+        "camera": "pan",
+        "evidence_ids": [
+          "fixture:theme:time",
+          "00000000-0000-0000-0000-00000000001b"
+        ]
+      }
+    ],
+    "planner": "evovid-rule-agent-v1",
+    "version": 1,
+    "disclosures": [
+      "Qloo associations are cultural evidence, not probabilities of personal preference.",
+      "Creative planning is deterministic; no language model was called.",
+      "Export is original silent motion-graphic storyboard video, not neural video or licensed reference footage."
+    ],
+    "build_id": "31de566d35ad4d00",
+    "comparison": {
+      "previous_run": "2089c4f974104741a0b8c705be67c600",
+      "before": "Wonder",
+      "after": "Time",
+      "reference_changed": true,
+      "note": "The new evidence was requested again; the provider may still return overlapping cultural associations."
+    }
+  },
+  "trace": [
+    {
+      "seq": 5,
+      "job_id": "54085cb6bfad4e1ab3c6d3648d8899d0",
+      "at": 1791695676.4670222,
+      "kind": "references_confirmed",
+      "detail": {
+        "build_id": "31de566d35ad4d00",
+        "mode": "demo",
+        "ids": [
+          "00000000-0000-0000-0000-000000000004"
+        ],
+        "search_provenance": [
+          [
+            {
+              "at": "2026-10-11T05:14:36.464182+00:00",
+              "mode": "demo",
+              "source": "demo_fixture",
+              "actual_http_call": false,
+              "operation": "search",
+              "result_ids": [
+                "00000000-0000-0000-0000-000000000004"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "seq": 6,
+      "job_id": "54085cb6bfad4e1ab3c6d3648d8899d0",
+      "at": 1791695676.4672332,
+      "kind": "feedback_replan",
+      "detail": {
+        "previous_run": "2089c4f974104741a0b8c705be67c600",
+        "previous_reference_ids": [
+          "00000000-0000-0000-0000-000000000001"
+        ],
+        "new_reference_ids": [
+          "00000000-0000-0000-0000-000000000004"
+        ],
+        "previous_pace": "balanced",
+        "new_pace": "balanced"
+      }
+    },
+    {
+      "seq": 7,
+      "job_id": "54085cb6bfad4e1ab3c6d3648d8899d0",
+      "at": 1791695676.4690847,
+      "kind": "agent_tool_selection",
+      "detail": {
+        "tools": [
+          "Explicit synthetic fixture insights"
+        ],
+        "goal_sent_to_qloo": false
+      }
+    },
+    {
+      "seq": 8,
+      "job_id": "54085cb6bfad4e1ab3c6d3648d8899d0",
+      "at": 1791695676.4699774,
+      "kind": "provider_trace",
+      "detail": {
+        "at": "2026-10-11T05:14:36.469279+00:00",
+        "mode": "demo",
+        "source": "demo_fixture",
+        "actual_http_call": false,
+        "operation": "insights",
+        "input_ids": [
+          "00000000-0000-0000-0000-000000000004"
+        ],
+        "result_ids": [
+          "00000000-0000-0000-0000-00000000001b",
+          "00000000-0000-0000-0000-00000000001c",
+          "00000000-0000-0000-0000-00000000001d",
+          "fixture:theme:time",
+          "fixture:theme:exploration",
+          "fixture:theme:communication"
+        ]
+      }
+    },
+    {
+      "seq": 9,
+      "job_id": "54085cb6bfad4e1ab3c6d3648d8899d0",
+      "at": 1791695676.4704027,
+      "kind": "constraint_check",
+      "detail": {
+        "shots": 4,
+        "duration": 16,
+        "budget": "phone-only",
+        "passed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "project": {
+    "schema_version": 1,
+    "title": "Wonder / Find the extraordinary",
+    "mode": "demo",
+    "references": [
+      {
+        "id": "00000000-0000-0000-0000-000000000001",
+        "name": "Spirited Away",
+        "category": "movie",
+        "year": 2001
+      }
+    ],
+    "constraints": {
+      "goal": "Find a little wonder in an ordinary day",
+      "duration": 16,
+      "aspect": "16:9",
+      "pace": "balanced",
+      "budget": "phone-only"
+    },
+    "evidence": {
+      "entities": [
+        {
+          "id": "00000000-0000-0000-0000-000000000015",
+          "name": "My Neighbor Totoro",
+          "category": "movie",
+          "year": 1988,
+          "rank": 1,
+          "affinity": null,
+          "explainability": null
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000016",
+          "name": "The Secret World of Arrietty",
+          "category": "movie",
+          "year": 2010,
+          "rank": 2,
+          "affinity": null,
+          "explainability": null
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000017",
+          "name": "Song of the Sea",
+          "category": "movie",
+          "year": 2014,
+          "rank": 3,
+          "affinity": null,
+          "explainability": null
+        }
+      ],
+      "tags": [
+        {
+          "id": "fixture:theme:wonder",
+          "name": "Wonder",
+          "rank": 1,
+          "affinity": null
+        },
+        {
+          "id": "fixture:theme:discovery",
+          "name": "Discovery",
+          "rank": 2,
+          "affinity": null
+        },
+        {
+          "id": "fixture:theme:everyday_magic",
+          "name": "Everyday magic",
+          "rank": 3,
+          "affinity": null
+        }
+      ],
+      "warnings": [
+        "Synthetic DEMO associations. No Qloo API calls were made. No synthetic affinity scores are displayed."
+      ],
+      "source": "demo_fixture"
+    },
+    "briefs": [
+      {
+        "title": "Wonder / Find the extraordinary",
+        "strategy": "Find the extraordinary",
+        "theme": "Wonder",
+        "audience_hypothesis": "For viewers curious about wonder. This is a creative hypothesis, not a demographic or sensitive-trait inference.",
+        "logline": "Find a little wonder in an ordinary day. A 16-second original study of wonder in one familiar room.",
+        "visual_direction": "Balanced pacing; original geometric compositions; a citrus and ink palette. EvoVid creative interpretation.",
+        "sound_direction": "Record original room tone and a soft percussive motif. No reference soundtrack is licensed or included.",
+        "palette": [
+          "#202635",
+          "#daed97",
+          "#f7f3e8"
+        ],
+        "evidence_ids": [
+          "fixture:theme:wonder",
+          "00000000-0000-0000-0000-000000000015"
+        ],
+        "scenes": [
+          {
+            "title": "Notice",
+            "caption": "In one familiar room, frame a small object that suggests wonder. Make the first image ask a question.",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:wonder",
+              "00000000-0000-0000-0000-000000000015"
+            ]
+          },
+          {
+            "title": "Cross a threshold",
+            "caption": "Let a person notice a detail. Explore wonder through a gesture, without reenacting the reference.",
+            "seconds": 4,
+            "camera": "push",
+            "evidence_ids": [
+              "fixture:theme:wonder",
+              "00000000-0000-0000-0000-000000000015"
+            ]
+          },
+          {
+            "title": "See it differently",
+            "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:wonder",
+              "00000000-0000-0000-0000-000000000015"
+            ]
+          },
+          {
+            "title": "Leave a question",
+            "caption": "Return to the opening composition with one visible change. End on wonder, leaving space for interpretation.",
+            "seconds": 4,
+            "camera": "pan",
+            "evidence_ids": [
+              "fixture:theme:wonder",
+              "00000000-0000-0000-0000-000000000015"
+            ]
+          }
+        ],
+        "interpretation": "EvoVid deterministic creative proposal; these visual, sound and story choices are not Qloo conclusions."
+      },
+      {
+        "title": "Discovery / Follow a connection",
+        "strategy": "Follow a connection",
+        "theme": "Discovery",
+        "audience_hypothesis": "For viewers curious about discovery. This is a creative hypothesis, not a demographic or sensitive-trait inference.",
+        "logline": "Find a little wonder in an ordinary day. A 16-second original study of discovery in one familiar room.",
+        "visual_direction": "Balanced pacing; original geometric compositions; a rose and aubergine palette. EvoVid creative interpretation.",
+        "sound_direction": "Record original room tone and a restrained melodic texture. No reference soundtrack is licensed or included.",
+        "palette": [
+          "#322838",
+          "#efadbc",
+          "#f7f3e8"
+        ],
+        "evidence_ids": [
+          "fixture:theme:discovery",
+          "00000000-0000-0000-0000-000000000016"
+        ],
+        "scenes": [
+          {
+            "title": "Two separate worlds",
+            "caption": "In one familiar room, frame a small object that suggests discovery. Make the first image ask a question.",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:discovery",
+              "00000000-0000-0000-0000-000000000016"
+            ]
+          },
+          {
+            "title": "A shared detail",
+            "caption": "Let a person notice a detail. Explore discovery through a gesture, without reenacting the reference.",
+            "seconds": 4,
+            "camera": "push",
+            "evidence_ids": [
+              "fixture:theme:discovery",
+              "00000000-0000-0000-0000-000000000016"
+            ]
+          },
+          {
+            "title": "A small exchange",
+            "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:discovery",
+              "00000000-0000-0000-0000-000000000016"
+            ]
+          },
+          {
+            "title": "A changed ritual",
+            "caption": "Return to the opening composition with one visible change. End on discovery, leaving space for interpretation.",
+            "seconds": 4,
+            "camera": "pan",
+            "evidence_ids": [
+              "fixture:theme:discovery",
+              "00000000-0000-0000-0000-000000000016"
+            ]
+          }
+        ],
+        "interpretation": "EvoVid deterministic creative proposal; these visual, sound and story choices are not Qloo conclusions."
+      },
+      {
+        "title": "Everyday magic / Make a small discovery",
+        "strategy": "Make a small discovery",
+        "theme": "Everyday magic",
+        "audience_hypothesis": "For viewers curious about everyday magic. This is a creative hypothesis, not a demographic or sensitive-trait inference.",
+        "logline": "Find a little wonder in an ordinary day. A 16-second original study of everyday magic in one familiar room.",
+        "visual_direction": "Balanced pacing; original geometric compositions; a lagoon and cream palette. EvoVid creative interpretation.",
+        "sound_direction": "Record original room tone and a gentle rhythmic pulse. No reference soundtrack is licensed or included.",
+        "palette": [
+          "#173e43",
+          "#8ddad3",
+          "#f7f3e8"
+        ],
+        "evidence_ids": [
+          "fixture:theme:everyday_magic",
+          "00000000-0000-0000-0000-000000000017"
+        ],
+        "scenes": [
+          {
+            "title": "An ordinary object",
+            "caption": "In one familiar room, frame a small object that suggests everyday magic. Make the first image ask a question.",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:everyday_magic",
+              "00000000-0000-0000-0000-000000000017"
+            ]
+          },
+          {
+            "title": "An unexpected clue",
+            "caption": "Let a person notice a detail. Explore everyday magic through a gesture, without reenacting the reference.",
+            "seconds": 4,
+            "camera": "push",
+            "evidence_ids": [
+              "fixture:theme:everyday_magic",
+              "00000000-0000-0000-0000-000000000017"
+            ]
+          },
+          {
+            "title": "A playful experiment",
+            "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+            "seconds": 4,
+            "camera": "locked",
+            "evidence_ids": [
+              "fixture:theme:everyday_magic",
+              "00000000-0000-0000-0000-000000000017"
+            ]
+          },
+          {
+            "title": "The quiet reveal",
+            "caption": "Return to the opening composition with one visible change. End on everyday magic, leaving space for interpretation.",
+            "seconds": 4,
+            "camera": "pan",
+            "evidence_ids": [
+              "fixture:theme:everyday_magic",
+              "00000000-0000-0000-0000-000000000017"
+            ]
+          }
+        ],
+        "interpretation": "EvoVid deterministic creative proposal; these visual, sound and story choices are not Qloo conclusions."
+      }
+    ],
+    "brief_index": 0,
+    "scenes": [
+      {
+        "title": "Notice",
+        "caption": "In one familiar room, frame a small object that suggests wonder. Make the first image ask a question.",
+        "seconds": 4,
+        "camera": "locked",
+        "evidence_ids": [
+          "fixture:theme:wonder",
+          "00000000-0000-0000-0000-000000000015"
+        ]
+      },
+      {
+        "title": "Cross a threshold",
+        "caption": "Let a person notice a detail. Explore wonder through a gesture, without reenacting the reference.",
+        "seconds": 4,
+        "camera": "push",
+        "evidence_ids": [
+          "fixture:theme:wonder",
+          "00000000-0000-0000-0000-000000000015"
+        ]
+      },
+      {
+        "title": "See it differently",
+        "caption": "Change scale or perspective to connect the detail to: Find a little wonder in an ordinary day",
+        "seconds": 4,
+        "camera": "locked",
+        "evidence_ids": [
+          "fixture:theme:wonder",
+          "00000000-0000-0000-0000-000000000015"
+        ]
+      },
+      {
+        "title": "Leave a question",
+        "caption": "Return to the opening composition with one visible change. End on wonder, leaving space for interpretation.",
+        "seconds": 4,
+        "camera": "pan",
+        "evidence_ids": [
+          "fixture:theme:wonder",
+          "00000000-0000-0000-0000-000000000015"
+        ]
+      }
+    ],
+    "planner": "evovid-rule-agent-v1",
+    "version": 1,
+    "disclosures": [
+      "Qloo associations are cultural evidence, not probabilities of personal preference.",
+      "Creative planning is deterministic; no language model was called.",
+      "Export is original silent motion-graphic storyboard video, not neural video or licensed reference footage."
+    ],
+    "build_id": "31de566d35ad4d00"
+  },
+  "trace": [
+    {
+      "seq": 1,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.401894,
+      "kind": "references_confirmed",
+      "detail": {
+        "build_id": "31de566d35ad4d00",
+        "mode": "demo",
+        "ids": [
+          "00000000-0000-0000-0000-000000000001"
+        ],
+        "search_provenance": [
+          [
+            {
+              "at": "2026-10-11T05:14:36.398243+00:00",
+              "mode": "demo",
+              "source": "demo_fixture",
+              "actual_http_call": false,
+              "operation": "search",
+              "result_ids": [
+                "00000000-0000-0000-0000-000000000001"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "seq": 2,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.4035015,
+      "kind": "agent_tool_selection",
+      "detail": {
+        "tools": [
+          "Explicit synthetic fixture insights"
+        ],
+        "goal_sent_to_qloo": false
+      }
+    },
+    {
+      "seq": 3,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.4046717,
+      "kind": "provider_trace",
+      "detail": {
+        "at": "2026-10-11T05:14:36.403795+00:00",
+        "mode": "demo",
+        "source": "demo_fixture",
+        "actual_http_call": false,
+        "operation": "insights",
+        "input_ids": [
+          "00000000-0000-0000-0000-000000000001"
+        ],
+        "result_ids": [
+          "00000000-0000-0000-0000-000000000015",
+          "00000000-0000-0000-0000-000000000016",
+          "00000000-0000-0000-0000-000000000017",
+          "fixture:theme:wonder",
+          "fixture:theme:discovery",
+          "fixture:theme:everyday_magic"
+        ]
+      }
+    },
+    {
+      "seq": 4,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.405349,
+      "kind": "constraint_check",
+      "detail": {
+        "shots": 4,
+        "duration": 16,
+        "budget": "phone-only",
+        "passed": true
+      }
+    }
+  ]
+}

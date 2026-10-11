@@ -1,0 +1,156 @@
+{
+  "source": "DEMO synthetic fixtures, not Qloo live evidence",
+  "actual_qloo_calls": 0,
+  "workflow": "Application search \u2192 explicit candidate \u2192 plan \u2192 export; feedback replan",
+  "first_theme": "Wonder",
+  "replanned_theme": "Time",
+  "video": {
+    "width": 640,
+    "height": 360,
+    "fps": 15,
+    "seconds": 16,
+    "bytes": 64581,
+    "format": "H.264 MP4",
+    "audio": "silent",
+    "render_type": "original motion-graphic storyboard",
+    "project_version": 1,
+    "mode": "demo",
+    "url": "/api/exports/0c51127cc6df400aae494def7c1d2477.mp4"
+  },
+  "plan_events": [
+    {
+      "seq": 1,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.401894,
+      "kind": "references_confirmed",
+      "detail": {
+        "build_id": "31de566d35ad4d00",
+        "mode": "demo",
+        "ids": [
+          "00000000-0000-0000-0000-000000000001"
+        ],
+        "search_provenance": [
+          [
+            {
+              "at": "2026-10-11T05:14:36.398243+00:00",
+              "mode": "demo",
+              "source": "demo_fixture",
+              "actual_http_call": false,
+              "operation": "search",
+              "result_ids": [
+                "00000000-0000-0000-0000-000000000001"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "seq": 2,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.4035015,
+      "kind": "agent_tool_selection",
+      "detail": {
+        "tools": [
+          "Explicit synthetic fixture insights"
+        ],
+        "goal_sent_to_qloo": false
+      }
+    },
+    {
+      "seq": 3,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.4046717,
+      "kind": "provider_trace",
+      "detail": {
+        "at": "2026-10-11T05:14:36.403795+00:00",
+        "mode": "demo",
+        "source": "demo_fixture",
+        "actual_http_call": false,
+        "operation": "insights",
+        "input_ids": [
+          "00000000-0000-0000-0000-000000000001"
+        ],
+        "result_ids": [
+          "00000000-0000-0000-0000-000000000015",
+          "00000000-0000-0000-0000-000000000016",
+          "00000000-0000-0000-0000-000000000017",
+          "fixture:theme:wonder",
+          "fixture:theme:discovery",
+          "fixture:theme:everyday_magic"
+        ]
+      }
+    },
+    {
+      "seq": 4,
+      "job_id": "2089c4f974104741a0b8c705be67c600",
+      "at": 1791695676.405349,
+      "kind": "constraint_check",
+      "detail": {
+        "shots": 4,
+        "duration": 16,
+        "budget": "phone-only",
+        "passed": true
+      }
+    }
+  ],
+  "render_events": [
+    {
+      "seq": 10,
+      "job_id": "0c51127cc6df400aae494def7c1d2477",
+      "at": 1791695676.4813325,
+      "kind": "render_snapshot",
+      "detail": {
+        "project": "2089c4f974104741a0b8c705be67c600",
+        "version": 1,
+        "mode": "demo",
+        "renderer": "Pillow + FFmpeg",
+        "neural_video": false
+      }
+    },
+    {
+      "seq": 11,
+      "job_id": "0c51127cc6df400aae494def7c1d2477",
+      "at": 1791695676.9631007,
+      "kind": "render_progress",
+      "detail": {
+        "shot": 1,
+        "shots": 4,
+        "progress": 0.25
+      }
+    },
+    {
+      "seq": 12,
+      "job_id": "0c51127cc6df400aae494def7c1d2477",
+      "at": 1791695677.37807,
+      "kind": "render_progress",
+      "detail": {
+        "shot": 2,
+        "shots": 4,
+        "progress": 0.5
+      }
+    },
+    {
+      "seq": 13,
+      "job_id": "0c51127cc6df400aae494def7c1d2477",
+      "at": 1791695677.8112547,
+      "kind": "render_progress",
+      "detail": {
+        "shot": 3,
+        "shots": 4,
+        "progress": 0.75
+      }
+    },
+    {
+      "seq": 14,
+      "job_id": "0c51127cc6df400aae494def7c1d2477",
+      "at": 1791695678.2369564,
+      "kind": "render_progress",
+      "detail": {
+        "shot": 4,
+        "shots": 4,
+        "progress": 1.0
+      }
+    }
+  ]
+}
