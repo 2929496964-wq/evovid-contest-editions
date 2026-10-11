@@ -1,0 +1,11 @@
+.env
+.venv/
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.sqlite3*
+node_modules/
+.ui-data/
+.evidence-data/
+test-output/

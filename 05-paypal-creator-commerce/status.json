@@ -1,0 +1,89 @@
+{
+  "edition": "05-paypal-creator-commerce",
+  "verified_at_utc": "2026-10-11T05:09:00Z",
+  "upstream_commit": "31255c83ff1f57143c5cf819c6e7a6bf8fc12fbe",
+  "default_port": 8715,
+  "default_binding": "127.0.0.1",
+  "contest_submission_ready": false,
+  "submitted": false,
+  "production_payments_possible": false,
+  "passed": [
+    {
+      "check": "Clean Linux Python 3.12 virtualenv install of requirements.lock",
+      "evidence": "evidence/PUBLIC_VERIFICATION.md"
+    },
+    {
+      "check": "Pinned runtime dependency consistency",
+      "evidence": "evidence/PUBLIC_VERIFICATION.md"
+    },
+    {
+      "check": "23 unittest cases on installed runtime",
+      "evidence": "evidence/PUBLIC_VERIFICATION.md"
+    },
+    {
+      "check": "23 unittest cases in a fresh locked virtualenv",
+      "evidence": "evidence/PUBLIC_VERIFICATION.md"
+    },
+    {
+      "check": "Actual loopback launcher and real TCP HTTP fixture flow, including PENDING lock and lost-response same-order recovery",
+      "evidence": "evidence/PUBLIC_VERIFICATION.md"
+    },
+    {
+      "check": "Actual H.264 preview and 720x1280, 12fps, 12-second silent fixture export",
+      "evidence": "evidence/sample-export-ffprobe.json"
+    },
+    {
+      "check": "Complete export video decoded without error",
+      "evidence": "evidence/PUBLIC_VERIFICATION.md"
+    },
+    {
+      "check": "Static client JavaScript syntax",
+      "command": "node --check static/app.js"
+    },
+    {
+      "check": "Independent QA: 36/36 actual TCP HTTP, SQLite ledger and FFmpeg assertions",
+      "reported_by": "Historical independent five-edition QA, 2026-10-11; summarized in evidence/PUBLIC_VERIFICATION.md; raw consolidated report is not part of public source."
+    },
+    {
+      "check": "Independent QA: 8/8 DOM-simulation plus real HTTP assertions; no uncaught JS exception",
+      "scope": "jsdom, not a real browser or playback test"
+    },
+    {
+      "check": "Independent regression: existing PENDING capture is reconciled without another capture request",
+      "scope": "ASGI with explicitly mocked Sandbox adapter"
+    },
+    {
+      "check": "Final frozen-source regression: 23/23 tests passed",
+      "evidence": "evidence/PUBLIC_VERIFICATION.md"
+    }
+  ],
+  "external_blockers": [
+    {
+      "check": "Actual local AI model inference",
+      "reason": "No owner-configured running local OpenAI-compatible model; adapter contract tested with mocks only."
+    },
+    {
+      "check": "Actual PayPal Sandbox buyer approval and capture",
+      "reason": "No authorized existing Sandbox credentials/buyer session supplied. No financial account, application or credential was created."
+    },
+    {
+      "check": "Real browser/mobile visual and playback verification",
+      "reason": "Browser-engine socket execution is restricted in this cloud executor; supported cloud browser cannot access executor loopback. No restriction bypass attempted."
+    }
+  ],
+  "not_tested": [
+    "Windows execution of start.bat",
+    "macOS execution of start.sh",
+    "A real browser's PayPal Sandbox redirect/return flow",
+    "Actual target-device screen recording under three minutes",
+    "Owner/team contest eligibility, public repository and video visibility, and final submission"
+  ],
+  "evidence_limit": "Included videos are actual rendered motion samples, not browser recordings. All included payment evidence is explicitly synthetic fixture data. Mock contract tests are not real PayPal or actual model inference evidence.",
+  "required_next_acceptance": [
+    "Owner configures an already-authorized local model and existing PayPal Sandbox credentials privately.",
+    "Run one real AI -> preview -> Sandbox approval/capture -> matching entitlement -> actual video export flow.",
+    "Verify real cancel, refresh, cross-project denial and target-browser behavior.",
+    "Record an actual under-three-minute walkthrough; owner separately authorizes publication and any final contest submission."
+  ],
+  "public_source_note": "Historical build status retained; raw execution logs, internal QA artifacts, runtime/session data and old package inventories are excluded. See evidence/PUBLIC_VERIFICATION.md and ../PUBLIC-MANIFEST.json."
+}
