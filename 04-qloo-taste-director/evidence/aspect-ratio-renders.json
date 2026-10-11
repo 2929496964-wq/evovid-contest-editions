@@ -1,0 +1,60 @@
+[
+  {
+    "aspect": "9:16",
+    "renderer": "installed imageio-ffmpeg binary fallback",
+    "actual_render": true,
+    "result": {
+      "width": 360,
+      "height": 640,
+      "fps": 15,
+      "seconds": 16,
+      "bytes": 60267,
+      "format": "H.264 MP4",
+      "audio": "silent",
+      "render_type": "original motion-graphic storyboard"
+    },
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 360,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "16.000000"
+      }
+    }
+  },
+  {
+    "aspect": "1:1",
+    "renderer": "installed imageio-ffmpeg binary fallback",
+    "actual_render": true,
+    "result": {
+      "width": 480,
+      "height": 480,
+      "fps": 15,
+      "seconds": 16,
+      "bytes": 67808,
+      "format": "H.264 MP4",
+      "audio": "silent",
+      "render_type": "original motion-graphic storyboard"
+    },
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 480,
+          "height": 480
+        }
+      ],
+      "format": {
+        "duration": "16.000000"
+      }
+    }
+  }
+]

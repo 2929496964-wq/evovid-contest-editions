@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-10-11",
+  "source": "https://docs.qloo.com/reference/qloo-llm-hackathon-developer-guide#getting-your-api-key",
+  "page_title": "Qloo Agentic Hackathon Developer Guide",
+  "section": "Getting Your API Key",
+  "verification": "The official page was read in an actual cloud browser during the independent integration review.",
+  "finding": "Hackathon keys are valid only for https://hackathon.api.qloo.com; staging and production hosts can return 401 even for a valid hackathon key.",
+  "implementation": "Fixed dedicated hackathon host, no arbitrary URL or alternate-host fallback; Search and Insights request contracts assert that host.",
+  "actual_key_obtained_or_read": false,
+  "actual_qloo_api_calls": 0
+}
