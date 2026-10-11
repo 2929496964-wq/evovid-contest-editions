@@ -1,0 +1,13 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Internal QA and generated runtime databases are not release source.
+qa_internal/
+examples/sample-data/
+evidence/*-data/
+evidence/launcher-test/

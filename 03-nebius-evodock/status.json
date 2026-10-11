@@ -1,0 +1,65 @@
+{
+  "project": "EvoDock Storyboard Agent",
+  "version": "0.1.0",
+  "checked_at_utc": "2026-10-11T05:21:00Z",
+  "default_port": 8713,
+  "upstream_commit": "31255c83ff1f57143c5cf819c6e7a6bf8fc12fbe",
+  "overall": "LOCAL_WORKFLOW_VERIFIED__LIVE_INTEGRATION_BLOCKED",
+  "local_tests": {
+    "framework": "unittest",
+    "passed": 30,
+    "failed": 0,
+    "log": "evidence/PUBLIC_VERIFICATION.md"
+  },
+  "verified": [
+    "Fixture create/edit/save/revise/restore through actual API and SQLite",
+    "Actual FFmpeg H264 MP4 at 960x540/24fps, 10-second synthetic sample",
+    "Three distinct synthetic briefs with shorter and warmer revisions",
+    "Project ZIP manifest and trace-chain verification",
+    "Cancellation, retry, duplicate-job prevention, render cache, persistence and optimistic revision conflicts",
+    "Actual production httpx client against offline MockTransport contract responses",
+    "Model discovery selection, 401/403/429/5xx, timeout, quotas, malformed/oversized response, output boundary and secret-echo rejection",
+    "JavaScript syntax and Python compilation",
+    "start.sh launched successfully inside a fresh venv that inherits preinstalled system packages; not a pristine dependency install",
+    "Automatic first-run dependency installation/check and loopback startup exercised by start.sh in inherited-package venv",
+    "Missing FFmpeg detected in API/UI and startup scripts; render disabled until available; no automatic system installation"
+  ],
+  "not_verified": [
+    "Live Nebius Token Factory access and inference",
+    "Actual model quality or live success rate",
+    "Windows/macOS execution and pristine internet dependency installation",
+    "Browser visual/interaction test: local Chromium socket creation blocked; cloud browser localhost endpoint unreachable",
+    "Multi-user production security, billing reconciliation, broad accessibility audit"
+  ],
+  "external_blockers": [
+    "Official lawful service access for the actual country/residence",
+    "Authorized existing key and separately approved runtime usage/spending",
+    "Successful exact NVIDIA open-model API calls and independent usage-console evidence",
+    "Separately authorized repository publication, judge access, demo video and contest submission"
+  ],
+  "real_provider_calls": 0,
+  "fixture_label": "DEMO FIXTURE — deterministic local template, not an LLM, not contest runtime evidence",
+  "sample_video": "examples/preview.mp4",
+  "sample_package": "examples/project.zip",
+  "sample_media_contains_fixture_watermark": true,
+  "browser_screenshots_generated": [],
+  "publication": "NOT_PUBLISHED",
+  "deployment": "LOCAL_ONLY",
+  "contest_submission": "NOT_SUBMITTED",
+  "independent_qa": {
+    "http_checks_passed": 20,
+    "body_boundary_checks_passed": 4,
+    "dom_http_checks_passed": 10,
+    "missing_ffmpeg_asgi_check": "passed",
+    "final_retest": "completed on final renderer-readiness/provenance UI",
+    "reports": [
+      "evidence/PUBLIC_VERIFICATION.md",
+      "evidence/PUBLIC_VERIFICATION.md",
+      "evidence/PUBLIC_VERIFICATION.md",
+      "evidence/PUBLIC_VERIFICATION.md"
+    ],
+    "dom_note": "jsdom with actual local HTTP and media stubs. No browser layout or media playback pass is claimed.",
+    "live_provider_calls": 0
+  },
+  "public_source_note": "Historical build status retained; raw execution logs, internal QA artifacts, runtime/session data and old package inventories are excluded. See evidence/PUBLIC_VERIFICATION.md and ../PUBLIC-MANIFEST.json."
+}
