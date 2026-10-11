@@ -68,13 +68,23 @@ The first command uses only Python's standard `unittest`; no extra test dependen
 
 - `samples/cafe.mp4`, `samples/garden-zh.mp4`, `samples/makers.mp4`: actual rendered samples, paired with input/hash JSON and decoded video frames.
 - `docs/ARCHITECTURE.md`: design, security and known limits.
-- `docs/JUDGING.md`: English project description, track, material changes, AI tooling disclosure and remaining submission gates.
+- `docs/JUDGING.md`: English project description, track, material changes, AI tooling disclosure and submission status.
 - `docs/DEMO_SCRIPT.md`: under-three-minute English demo script with Chinese guide.
 - `docs/FRICTION_LOG.md`: observed development friction, without invented Alexa SDK usage.
-- `docs/TEST_REPORT.md` / `status.json`: exact passed, untested and external-blocked status.
+- `docs/TEST_REPORT.md` / `status.json`: preserved historical build results and a separately dated current-status update.
 - [Public verification summary](evidence/PUBLIC_VERIFICATION.md): historical test results and staging rechecks; raw logs are excluded. `evidence/render-tests.json` retains synthetic-render measurements.
 
-**This package is runnable source, not a submitted competition entry.** Browser UI interaction/recording could not be verified in the current tool environment; do not mistake the sample videos for a UI demo. Windows/macOS startup scripts are supplied but not executed on those systems. Public GitHub access, a public YouTube/Vimeo demo, eligibility checks and submission are still owner actions.
+## Submission and browser verification — 2026-10-11
+
+**Submitted to the Amazon hackathon on Devpost.** The project page showed “Project submitted!” and “SUBMITTED TO”; the refreshed project list also showed “SUBMITTED”. This confirms platform submission, not an organizer eligibility or judging decision.
+
+- [Submitted project](https://devpost.com/software/evobridge-creator-assistant)
+- [Public English demo on Vimeo](https://vimeo.com/1234797768): 2:33, 1080p, edited from real browser captures. It clearly discloses the deterministic Alexa+ simulation and non-neural motion graphics. The demonstrated local MP4 is 11 seconds at 960×540.
+- A private Linux Codespace (2 cores, 8 GB) passed 17 Python unit tests and JavaScript syntax checking. Real-browser checks covered storyboard editing, undo, captions, aspect-ratio changes, render confirmation, rendering, playback/download, refresh persistence, JSON backup/restore, cancellation/retry and idempotency.
+- Browser testing used a one-line, uncommitted working-copy adaptation allowing the exact proxy Origin `https://localhost:8711`; loopback Host and session-token checks remained enforced. **That adaptation is not in the public source.** This is a bounded Linux browser check, not proof that the unchanged source works through every hosted proxy.
+- Vimeo was public and embeddable, finished transcoding, and playback advanced in the signed-in browser. The Devpost embed also played. Independent anonymous playback was not established because the separate check was bot-blocked.
+
+Windows/macOS execution, mobile layout and personal-image upload remain unverified. No actual Alexa service, device, SDK or runtime LLM is implemented. Historical failures and the missing pre-event baseline are retained in [public verification](evidence/PUBLIC_VERIFICATION.md) and the test/provenance reports.
 
 ## Privacy, storage and licenses
 
@@ -108,6 +118,6 @@ Projects, imported sanitized images, jobs and exports are in `data/` next to `ru
 
 ## 当前验证边界
 
-已执行Python单测、干净依赖安装、三个主题真实渲染、取消/幂等/失败重试与API验证，详见测试报告。浏览器在当前工具环境被系统权限/访问限制阻断，所以**尚未完成真实浏览器端到端测试或演示录屏**。没有把样片冒充UI演示。Windows/macOS脚本尚未实机执行。公开代码、公开视频、资格核查和参赛提交仍待你确认并完成。
+2026-10-11已完成Amazon的Devpost正式提交，平台显示“Project submitted!”并在刷新列表后显示“SUBMITTED”。[作品页](https://devpost.com/software/evobridge-creator-assistant)与[2分33秒英文演示](https://vimeo.com/1234797768)已公开。私人Linux Codespace中的真实浏览器已验证分镜编辑、撤销、字幕、画幅、渲染、播放/下载、刷新持久化、备份恢复、取消重试和幂等，17项Python单测及JS语法检查通过。测试工作副本只增加精确代理Origin白名单，未提交到公开源码；loopback Host和session-token检查仍保留。演示由真实浏览器画面剪辑而成，明确说明确定性Alexa+模拟及非神经动效。Windows/macOS实机、移动端和个人图片上传仍未验证；独立匿名播放被bot检查阻断，不能声称已通过。平台提交成功不代表主办方已确认资格或评审通过。旧测试历史及缺失的赛前基线限制仍保留。
 
 该目录与其他参赛版本隔离。源码MIT开源，保留公开EvoVid上游版权；不含私人主版、密钥、私人素材或模型权重。完整英文材料见docs目录，中文操作可对照上面的双语命令表。
