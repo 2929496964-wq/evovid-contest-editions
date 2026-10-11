@@ -1,5 +1,7 @@
 # Actual friction log — 2026-10-11
 
+> Historical build record. The original environment failures and unexecuted gates below are preserved as history. A later 2026-10-11 Linux Codespace browser run, public Vimeo demo and confirmed Amazon Devpost submission are documented in [the current verification summary](../evidence/PUBLIC_VERIFICATION.md). Windows/macOS/mobile and personal-image upload remain unverified; the browser working-copy Origin adaptation was not published.
+
 1. **Upstream scope mismatch.** The public EvoVid snapshot is an iOS/Pocket prototype plus optional desktop workbench. Reusing the full stack would bring unrelated purchase and model dependencies. Resolution: preserve the MIT SQLite module and renderer concepts, implement a small independent local simulator with only two Python dependencies.
 2. **Chinese render fonts.** Generic Latin defaults cannot reliably render Chinese. The renderer now checks Microsoft YaHei / Noto CJK / PingFang, accepts an explicit local font path, and the real Chinese portrait sample was visually inspected. Fonts are not redistributed. Emoji coverage remains platform-dependent.
 3. **Replay and duplicate clicks.** A render request needs an immutable revision snapshot, not whatever the editor contains when a worker later runs. The implementation snapshots input and deduplicates exact revision fingerprints, verified by actual repeated requests.

@@ -20,7 +20,7 @@ No Alexa logo is used. No runtime Alexa SDK, MCP interface, device, cloud LLM or
 4. Watch the actual output and open its manifest. Compare two themes or aspect ratios.
 5. Restart and observe restored projects, completed history and any explicitly interrupted jobs.
 
-The free local reproduction path has no paid API or hosted uptime requirement. The source can remain runnable during the judging period. The owner still needs to provide the accepted repository access route and a public under-three-minute demo video.
+The free local reproduction path has no paid API or hosted uptime requirement. The source can remain runnable during the judging period. The public source is available in this repository, with a [2:33 English demo](https://vimeo.com/1234797768) on the [submitted Devpost project](https://devpost.com/software/evobridge-creator-assistant).
 
 ## Development tools and rights
 
@@ -28,7 +28,13 @@ Implemented with OpenAI AI coding assistance, local shell tooling, Python, Pillo
 
 Upstream MIT code attribution, sample rights and third-party notices are preserved. All samples are synthetic text/geometry. See `PROVENANCE.md` for the shallow-baseline caveat and material changes.
 
-## Submission gates, not completed claims
+## Current submission status — 2026-10-11
+
+Devpost displayed “Project submitted!” and “SUBMITTED TO” Amazon; a refreshed project list displayed “SUBMITTED”. Both optional mini-challenges were answered No. Public demo playback was sampled in the signed-in browser and in the Devpost embed; independent anonymous playback was not established. See [the verification summary](../evidence/PUBLIC_VERIFICATION.md) for exact scope and limitations. Platform submission is not an organizer eligibility or judging decision.
+
+## Original submission checklist (historical)
+
+The original checklist is retained below. Public source, the real-browser demo and platform submission are now completed as described above. Native Windows/macOS/mobile checks, personal-image upload and the missing pre-event baseline are not promoted to passes.
 
 - Verify entrant/team eligibility and regional/service/prize requirements with the official organizer.
 - Verify the necessary before-event baseline; the available public snapshot is dated September 23.
@@ -43,4 +49,4 @@ https://amazonappdev2026.devpost.com/forum_topics/45058-clarification-on-simulat
 https://amazonappdev2026.devpost.com/details/faqs
 https://amazonappdev2026.devpost.com/forum_topics/45450-change-of-type-of-project-and-logo-permission
 
-No publication, account creation, permissions change, purchase or competition submission was performed by this build task.
+The original build task performed no publication or competition submission; those later actions are reported separately above. No payment or runtime provider integration is claimed.

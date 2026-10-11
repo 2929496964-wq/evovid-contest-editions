@@ -1,5 +1,7 @@
 # Actual test report — 2026-10-11
 
+> Historical build record. The original environment failures and unexecuted gates below are preserved as history. A later 2026-10-11 Linux Codespace browser run, public Vimeo demo and confirmed Amazon Devpost submission are documented in [the current verification summary](../evidence/PUBLIC_VERIFICATION.md). Windows/macOS/mobile and personal-image upload remain unverified; the browser working-copy Origin adaptation was not published.
+
 ## Environment
 
 Linux x86_64, kernel 6.18.44, glibc 2.41; Python 3.12.14; Pillow 12.3.0; imageio-ffmpeg 0.6.0; system FFmpeg 7.1.5 with libx264. Chinese sample uses the locally installed Noto Sans CJK font. No model or cloud API.
@@ -23,7 +25,7 @@ Linux x86_64, kernel 6.18.44, glibc 2.41; Python 3.12.14; Pillow 12.3.0; imageio
 - `evidence/dependency-release-hashes.json` records official PyPI filenames and hashes used in `requirements.lock`.
 - The root `PUBLIC-MANIFEST.json` inventories this public source copy. Internal local Git history and original packaging inventories are excluded.
 
-## Blocked or not run
+## Blocked or not run during the original build
 
 - **Real-browser UI, layout, mobile layout and video playback:** not passed. Playwright's Chromium launch failed at OS socket permission checks. A permitted retry gave the same result. The available cloud browser could not reach the app and a subsequent binding was refused by its URL policy. No restriction was bypassed.
 - **UI screen recording:** not produced. `docs/DEMO_SCRIPT.md` is a 2:35 script, not a recording. The sample MP4s only prove output rendering. No public demo URL exists.
@@ -31,6 +33,6 @@ Linux x86_64, kernel 6.18.44, glibc 2.41; Python 3.12.14; Pillow 12.3.0; imageio
 - No real Alexa integration is implemented or claimed. That is a deliberate simulator boundary rather than an untested production integration.
 - A pre-event upstream SHA is missing from the supplied shallow checkout; see PROVENANCE.md. No historical commit was fabricated.
 
-## Before submission
+## Original pre-submission checklist (historical)
 
 On a supported machine, run the browser through fresh project → brief → two edits → undo → image upload → confirmation cancel → confirmed export → playback/download → refresh/reopen → history. Repeat at 390 px width and use keyboard Escape on the dialog. Check local language/fonts. Record the actual flow with the supplied English script, obtain authorized judge access, verify entrant eligibility and publish/submit only with owner approval.

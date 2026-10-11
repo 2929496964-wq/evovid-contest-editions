@@ -1,6 +1,6 @@
 # Real demonstration script (target 2:35)
 
-**Status: script only, not a recorded demo.** The supplied sample MP4s demonstrate output rendering, not the UI interaction. Record an actual local browser after browser validation. Do not substitute the sample export for a live render.
+**Original planning script, preserved below.** A [153-second English demo](https://vimeo.com/1234797768), edited from real browser captures, is now public and included in the [submitted Amazon project](https://devpost.com/software/evobridge-creator-assistant). The published edit is not a claim that every shot proposed in this script was executed. See [current verification and limits](../evidence/PUBLIC_VERIFICATION.md). The supplied sample MP4s still demonstrate output rendering rather than UI interaction.
 
 Use a 1440×1000 browser at http://127.0.0.1:8711, English UI. Keep “Alexa+ simulation” visible. Optional English narration follows. A smartphone-width closing shot can be cut in only after actually testing it.
 

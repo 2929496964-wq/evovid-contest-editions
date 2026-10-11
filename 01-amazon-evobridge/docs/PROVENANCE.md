@@ -3,7 +3,7 @@
 Public upstream: https://github.com/2929496964-wq/evovid-pocket
 Observed source snapshot: `31255c83ff1f57143c5cf819c6e7a6bf8fc12fbe`, commit date 2026-09-23T14:00:17+08:00.
 
-This checkout was shallow and contained only the supplied public snapshot. **A pre-2026-08-31 baseline was not present and has not been reconstructed or claimed.** The owner must supply/verify that earlier baseline if the submission requires proof of pre-event versus competition-period work. The supplied baseline hash identifies the inspected upstream source. The public staging directory omits local Git history and internal implementation-commit records; its exact files are covered by the new root PUBLIC-MANIFEST.json. No public push has been made.
+This checkout was shallow and contained only the supplied public snapshot. **A pre-2026-08-31 baseline was not present and has not been reconstructed or claimed.** The owner must supply/verify that earlier baseline if the submission requires proof of pre-event versus competition-period work. The supplied baseline hash identifies the inspected upstream source. The public staging directory omits local Git history and internal implementation-commit records; its exact files are covered by the new root PUBLIC-MANIFEST.json. The source has since been published in this repository and the Amazon project submitted; see [current verification](../evidence/PUBLIC_VERIFICATION.md). Publication does not resolve the missing pre-event baseline.
 
 Preserved/reused: MIT license and desktop SQLite `Store` in `evobridge/job_store.py`. Adapted ideas: server-generated UUID outputs, local motion-graphics pipeline, font discovery and cancellation.
 
