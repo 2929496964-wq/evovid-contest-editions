@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "check": "actual OpenCV5",
+      "passed": true,
+      "detail": {
+        "ok": true,
+        "opencv": "5.0.0",
+        "mode": "local",
+        "auth_required": false,
+        "aws_verified": false,
+        "max_mb": 150,
+        "max_seconds": 180
+      }
+    },
+    {
+      "check": "empty upload rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bad video fails honestly",
+      "passed": true,
+      "detail": "Unsupported container signature. Upload MP4/MOV, AVI, MKV or WebM; playlists and URLs are not accepted."
+    },
+    {
+      "check": "upload analyzed",
+      "passed": true,
+      "detail": "044e1a92ea24482ea3eb59effa173cbd"
+    },
+    {
+      "check": "input hash preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "unsafe path rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "unapproved render rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "duplicate render rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "rendered MP4 decodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "duration within tolerance",
+      "passed": true,
+      "detail": 4.0
+    },
+    {
+      "check": "output hash verified",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original still byte-identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CSV export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "audit ZIP export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cross-origin write blocked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "host rebinding blocked",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": true,
+  "url": "http://127.0.0.1:8712",
+  "tested_at": 1791695647.476205
+}

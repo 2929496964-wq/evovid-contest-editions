@@ -1,0 +1,17 @@
+[
+  {
+    "name": "remote_hls",
+    "passed": true,
+    "error": "Unsupported container signature. Upload MP4/MOV, AVI, MKV or WebM; playlists and URLs are not accepted."
+  },
+  {
+    "name": "file_playlist",
+    "passed": true,
+    "error": "Unsupported container signature. Upload MP4/MOV, AVI, MKV or WebM; playlists and URLs are not accepted."
+  },
+  {
+    "name": "url_body",
+    "passed": true,
+    "error": "Unsupported container signature. Upload MP4/MOV, AVI, MKV or WebM; playlists and URLs are not accepted."
+  }
+]
