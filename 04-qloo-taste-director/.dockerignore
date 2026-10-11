@@ -1,0 +1,9 @@
+.git
+.venv
+.taste-data
+.env*
+evidence
+samples
+tests
+__pycache__
+*.sqlite3*

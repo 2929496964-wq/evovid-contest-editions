@@ -1,0 +1,19 @@
+services:
+  taste-director:
+    build: .
+    ports:
+      - "127.0.0.1:8714:8714"
+    environment:
+      PORT: "8714"
+      QLOO_HOURLY_LIMIT: "100"
+      # Secrets intentionally omitted. Configure authorized server-side injection separately.
+    volumes:
+      - taste-data:/data
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 96
+    mem_limit: 768m
+volumes:
+  taste-data:

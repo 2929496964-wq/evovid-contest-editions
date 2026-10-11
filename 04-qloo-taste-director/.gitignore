@@ -1,0 +1,11 @@
+.venv/
+.taste-data/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+config.local.*
+*.sqlite3*
+*.log
+!evidence/*.log

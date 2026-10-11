@@ -1,0 +1,50 @@
+{
+  "edition": "EvoVid Qloo Taste Director",
+  "version": "1.0.0",
+  "verified_at": "2026-10-11",
+  "default_port": 8714,
+  "default_bind": "127.0.0.1",
+  "default_mode": "demo",
+  "overall": "Local DEMO complete; real Qloo REST adapter implemented but live access unverified; publication not performed",
+  "upstream": {
+    "url": "https://github.com/2929496964-wq/evovid-pocket",
+    "commit": "31255c83ff1f57143c5cf819c6e7a6bf8fc12fbe",
+    "license": "MIT"
+  },
+  "passed": [
+    "Clean Python 3.12 venv install from official PyPI with complete pinned runtime lock",
+    "pip check: no broken requirements",
+    "18 application, adapter-contract, privacy, cancellation, recovery and real-render tests",
+    "Actual start.sh startup with PORT override and local HTTP/security headers",
+    "21 independent HTTP workflow checks",
+    "7 independent DOM simulation checks against actual HTTP (not real browser layout/playback)",
+    "DEMO search ambiguity and explicit candidate selection",
+    "Evidence-linked three briefs, editable four-shot storyboard, versioned save and feedback replan",
+    "Project/trace JSON and Markdown exports",
+    "Real silent H.264 640x360, 15 fps, 16-second sample video",
+    "9:16 and 1:1 actual renders with installed FFmpeg fallback binary",
+    "LIVE no-key fail-closed and no fixture fallback",
+    "JavaScript syntax and Python compilation"
+  ],
+  "not_tested": [
+    "Real Chromium visual end-to-end, canvas playback and browser video controls (environment restriction)",
+    "Windows launcher execution",
+    "Docker build/runtime",
+    "Public deployment and fresh external browser demo"
+  ],
+  "external_blockers": [
+    "Authorized Qloo credential and issuer-confirmed host, quota, rate and expiry",
+    "At least two genuinely live public-reference request-to-export evidence chains",
+    "User authorization for public repository push/deployment and final submission",
+    "Entrant eligibility and existing-project rule clarification"
+  ],
+  "actual_qloo_api_calls": 0,
+  "credentials_created_or_requested": false,
+  "public_deployment": false,
+  "public_push": false,
+  "contest_submitted": false,
+  "sample": "samples/demo-storyboard.mp4",
+  "report": "docs/VERIFICATION.md",
+  "qloo_host": "https://hackathon.api.qloo.com",
+  "public_source_note": "Historical build status retained; raw execution logs, internal QA artifacts, runtime/session data and old package inventories are excluded. See evidence/PUBLIC_VERIFICATION.md and ../PUBLIC-MANIFEST.json."
+}
