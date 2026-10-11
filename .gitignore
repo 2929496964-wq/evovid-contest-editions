@@ -1,0 +1,33 @@
+# Dependencies, caches and local VCS
+**/.venv/
+**/node_modules/
+**/.qa-node/
+**/.wheel-cache/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/.DS_Store
+# Local credentials (only reviewed empty templates may be tracked)
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+# Runtime identities, media, ledger and sessions
+**/data/
+**/runtime*/
+**/.taste-data/
+**/.evidence-data/
+**/.ui-data/
+**/test-output/
+**/*.sqlite*
+**/*.db
+**/*.db-*
+**/*.pid
+**/*.log
+**/qa_internal/
+# Newly generated execution evidence needs a separate privacy review
+**/evidence/*tests*.txt
+**/evidence/*install*.txt
+**/evidence/*regression*.txt
+**/evidence/ui-*.png

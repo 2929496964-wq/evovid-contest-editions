@@ -1,0 +1,1276 @@
+{
+  "schema_version": 1,
+  "prepared_date_utc": "2026-10-11",
+  "purpose": "Exact local public-source staging inventory; not proof of publication or contest submission",
+  "hash_algorithm": "SHA-256",
+  "self_excluded": "PUBLIC-MANIFEST.json",
+  "file_count": 253,
+  "total_bytes_excluding_manifest": 4600314,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 639,
+      "sha256": "b04a6c167784af830af3bcff7dca45946a28a189bcc74b579bd0117a2b63c130"
+    },
+    {
+      "path": "01-amazon-evobridge/.gitignore",
+      "bytes": 58,
+      "sha256": "eb3a597a24c411731765f7b22489a8e7a6321d3d4cfe8c1f2081eae8ae396291"
+    },
+    {
+      "path": "01-amazon-evobridge/LICENSE",
+      "bytes": 1203,
+      "sha256": "28b57243ec22db1b596e60100b2b11837a78fb56a96439b3450cc83a32d7b011"
+    },
+    {
+      "path": "01-amazon-evobridge/README.md",
+      "bytes": 10646,
+      "sha256": "fe4f7ad735968fc20039185a7b8073087e79642465cad5d149ce2cf794676b32"
+    },
+    {
+      "path": "01-amazon-evobridge/THIRD_PARTY_NOTICES.md",
+      "bytes": 1641,
+      "sha256": "7aa02d1c8566a6e7f86c830ba11980b36e9111566f5dd1080a0fc13ac3861a4b"
+    },
+    {
+      "path": "01-amazon-evobridge/docs/ARCHITECTURE.md",
+      "bytes": 3876,
+      "sha256": "44fd31db2f0ed60400a51d0b057130731d7e6c3abcba9fe160c50548f87444fb"
+    },
+    {
+      "path": "01-amazon-evobridge/docs/DEMO_SCRIPT.md",
+      "bytes": 3188,
+      "sha256": "3af2fa3ca821dcc2fcee4802e4cfb67824fdf43c8521da2937c872e5a8e4dc95"
+    },
+    {
+      "path": "01-amazon-evobridge/docs/FRICTION_LOG.md",
+      "bytes": 2867,
+      "sha256": "fcd371dd1ee167835a251fc32a2125040b0c39da134da6f5c3535c53305d2265"
+    },
+    {
+      "path": "01-amazon-evobridge/docs/JUDGING.md",
+      "bytes": 3935,
+      "sha256": "e59b443ef5d96bc2f8bd8d8a44782deb0695adc3120fabbde45d0fa0fb996dde"
+    },
+    {
+      "path": "01-amazon-evobridge/docs/PROVENANCE.md",
+      "bytes": 1688,
+      "sha256": "dc81b1d64c4f6017a71ace373df0063e0d9eb49c0367435508f2d185963b3bf1"
+    },
+    {
+      "path": "01-amazon-evobridge/docs/TEST_REPORT.md",
+      "bytes": 4747,
+      "sha256": "5f616fe51c34d51a5188a0e41d2027ddc5e45af223432c1cf2470d70b7b523cf"
+    },
+    {
+      "path": "01-amazon-evobridge/evidence/PUBLIC_VERIFICATION.md",
+      "bytes": 2208,
+      "sha256": "7a0752f770268f55757f77b0883042689dc433d1485a0317e177090eb5403354"
+    },
+    {
+      "path": "01-amazon-evobridge/evidence/README.md",
+      "bytes": 458,
+      "sha256": "d5de586c52aecacc55977c178940673222b3dd143022e67e4b503c67bebde9a3"
+    },
+    {
+      "path": "01-amazon-evobridge/evidence/dependency-release-hashes.json",
+      "bytes": 16892,
+      "sha256": "23b4a573cca27aa46eab3f459359507e551fa8a8d9bb21b473067a1c8bb9f1ec"
+    },
+    {
+      "path": "01-amazon-evobridge/evidence/render-tests.json",
+      "bytes": 2238,
+      "sha256": "321837f4f63a5851d13611347891ae8e5c7ba044329033294a303969643f23a5"
+    },
+    {
+      "path": "01-amazon-evobridge/evobridge/__init__.py",
+      "bytes": 83,
+      "sha256": "0ed6f70a936a2ca53cab9a2820e46e96e27ac9729733e1f49647937b66a658be"
+    },
+    {
+      "path": "01-amazon-evobridge/evobridge/app.py",
+      "bytes": 15890,
+      "sha256": "f8cc499a930b8b41644def59dfdf2770fa2aaac1cb2d6eb1076ce09b7b847477"
+    },
+    {
+      "path": "01-amazon-evobridge/evobridge/job_store.py",
+      "bytes": 3375,
+      "sha256": "293224e7f6694a396d7701b352c02bbd4f537c88e6752339384abb2ecf775de2"
+    },
+    {
+      "path": "01-amazon-evobridge/evobridge/model.py",
+      "bytes": 10209,
+      "sha256": "9125fe0735ecc2a02bc34536a28ba859b4f7530c9f570ccfef00dba0e8570f2c"
+    },
+    {
+      "path": "01-amazon-evobridge/evobridge/render.py",
+      "bytes": 6131,
+      "sha256": "c2c4c2d679c80597b4bfaddf95d2b7030b8c6dc01bcf3d77cd71b57dff3064e6"
+    },
+    {
+      "path": "01-amazon-evobridge/requirements.lock",
+      "bytes": 8284,
+      "sha256": "6a547a6d9599cf43a7e02896779b23ce4b18be58a2f84fb2152e716cdad9655a"
+    },
+    {
+      "path": "01-amazon-evobridge/requirements.txt",
+      "bytes": 109,
+      "sha256": "23d65d956eb7cc2c94f176d5e24c257b72b958426c3dfc51a0b1ef50edf95069"
+    },
+    {
+      "path": "01-amazon-evobridge/run.py",
+      "bytes": 886,
+      "sha256": "023f714a00a7615c7e7075dabba7544226068b22606cb278863938f322dd93b8"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/README.md",
+      "bytes": 483,
+      "sha256": "f4277061095163ea4ef4ef3e61b6f94ae9b3da3e24c693f7ac99307460a781bc"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/cafe-frame.png",
+      "bytes": 97632,
+      "sha256": "fbb4935960cfd24ac83c7b254959c341b215c9f395f0dbf8de8ffcae00be6b8c"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/cafe.json",
+      "bytes": 4967,
+      "sha256": "f77135ff91fa96225840162628fd4167bf3f88f962662b661dfac80adae07766"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/cafe.mp4",
+      "bytes": 109049,
+      "sha256": "ef9a198926839d492d7257906fb6b85eee9244dd7e3a5ffe02850fe7f20a782e"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/garden-zh-frame.png",
+      "bytes": 68918,
+      "sha256": "aa18e95de33fc2dd3517e33ae440d29bb58bc71d8ba9d1f8378803b4f1fb2a65"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/garden-zh.json",
+      "bytes": 6364,
+      "sha256": "bfd047e19c635db60bb660a03c983ce1995aeac11efd1f891f0ea46ea67b63db"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/garden-zh.mp4",
+      "bytes": 100498,
+      "sha256": "2f4c836934ffbc925a5fcc4b5fb41569b6bd96d172f81e6a47c3b27fbfb7f8a1"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/makers-frame.png",
+      "bytes": 98581,
+      "sha256": "10f60b9d93dfecf96aa87f23a53f8a0ab5774171227ab44972d91252f66d17be"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/makers.json",
+      "bytes": 5087,
+      "sha256": "366641a8a8b5b820d1e294e4404c8b8c92b644da563dcd4183e18f174d1b70ad"
+    },
+    {
+      "path": "01-amazon-evobridge/samples/makers.mp4",
+      "bytes": 113365,
+      "sha256": "5febf11014d27a5c4d8dc5460259cb62a6e0b08bd23b9eb3f5e9ea5d41c26cba"
+    },
+    {
+      "path": "01-amazon-evobridge/start.bat",
+      "bytes": 587,
+      "sha256": "747e6205bbd4b0ee2f08818a42253f50633909bf262ce78732da1e6bbdb6ff4e"
+    },
+    {
+      "path": "01-amazon-evobridge/start.sh",
+      "bytes": 256,
+      "sha256": "9aa71df71ecf4a36eefd9321f240d5908b38a46c73ce23e5142ee18e09d68b87"
+    },
+    {
+      "path": "01-amazon-evobridge/static/app.js",
+      "bytes": 18877,
+      "sha256": "72e1d5f34cb1dd8d84310de8168f18520a52d8a2e61ece88d19c8dfd1570aaf2"
+    },
+    {
+      "path": "01-amazon-evobridge/static/index.html",
+      "bytes": 9859,
+      "sha256": "c30c68e8725834bee5e4c35afbc11548bba0c579efff4b515a14324525066fea"
+    },
+    {
+      "path": "01-amazon-evobridge/static/style.css",
+      "bytes": 18095,
+      "sha256": "7b812c700ccddd2cf03ff045e60c515f9ae51e6031be4e8299e880557bf70343"
+    },
+    {
+      "path": "01-amazon-evobridge/status.json",
+      "bytes": 2910,
+      "sha256": "5e42c44a3565a4c11652f834dec08409e623d517f2a461db6dec7bea819c4bcd"
+    },
+    {
+      "path": "01-amazon-evobridge/tests/test_model.py",
+      "bytes": 4230,
+      "sha256": "32db8e947a1428aa6c08591551c2d4ba134da7211661b2ad29150d2c405d2be0"
+    },
+    {
+      "path": "01-amazon-evobridge/tests/test_server.py",
+      "bytes": 4361,
+      "sha256": "bd218614786ecb8c3ee84347ceab990def95718ca757f12aad05cea38eca3eed"
+    },
+    {
+      "path": "01-amazon-evobridge/tools/clean_smoke.py",
+      "bytes": 1993,
+      "sha256": "11dd0e29f2428aa17f44b50fdabdda9c6ad214d77d523c119aa88bda23784ed8"
+    },
+    {
+      "path": "01-amazon-evobridge/tools/create_evidence.py",
+      "bytes": 4543,
+      "sha256": "9fe1231ec9cb51d1ad1db1193c56fd1cd1ccb816744757d1f54414458823594d"
+    },
+    {
+      "path": "01-amazon-evobridge/vendor/EVOVID-LICENSE",
+      "bytes": 1083,
+      "sha256": "a4a189ca3b60bc045c2bf12f49cf9a3ba5f69beb8ee016e0486c56996ef15d72"
+    },
+    {
+      "path": "02-opencv-vision-director/.dockerignore",
+      "bytes": 93,
+      "sha256": "e8839302fc13511c56a9174455da24318354a7b83f405caaadd677bf70c24f02"
+    },
+    {
+      "path": "02-opencv-vision-director/.gitignore",
+      "bytes": 91,
+      "sha256": "10d040c590721195c3ced508894bf2d5655a4184b26a8084161123fc1f85217d"
+    },
+    {
+      "path": "02-opencv-vision-director/Dockerfile",
+      "bytes": 735,
+      "sha256": "c9a703a252894a65364c9812289e5f13d295b878b5922e171964d39c9086a40f"
+    },
+    {
+      "path": "02-opencv-vision-director/LICENSE",
+      "bytes": 1083,
+      "sha256": "a4a189ca3b60bc045c2bf12f49cf9a3ba5f69beb8ee016e0486c56996ef15d72"
+    },
+    {
+      "path": "02-opencv-vision-director/README.md",
+      "bytes": 6946,
+      "sha256": "ef4aa3ca83b218c16daf9cf4ecbc0635c2303366105082154b615ff1e9b6236f"
+    },
+    {
+      "path": "02-opencv-vision-director/deploy/README.md",
+      "bytes": 5466,
+      "sha256": "11667ff4ffa64655bd134ece9e46c4aac0ab87a352c071b725012d5b5b2c9d83"
+    },
+    {
+      "path": "02-opencv-vision-director/deploy/private-ec2.yaml",
+      "bytes": 4737,
+      "sha256": "feb7e030bbd5d615dc570d2bd7d60de40f036e92000349c9172f219e84b3b339"
+    },
+    {
+      "path": "02-opencv-vision-director/docs/acceptance.md",
+      "bytes": 2764,
+      "sha256": "6813e5913d82cbfb3abe08c0ca981d6f8993ec330d2441973d690e4e5734f93c"
+    },
+    {
+      "path": "02-opencv-vision-director/docs/architecture.svg",
+      "bytes": 2971,
+      "sha256": "75a5416e53a323c91be887f1efb52d90a247e368bece3cca8b8d845539e3b623"
+    },
+    {
+      "path": "02-opencv-vision-director/docs/demo-script.md",
+      "bytes": 3215,
+      "sha256": "3db24faac2a2d4920cf53855e5c7f84f5236189cadb05417335510d63ded751a"
+    },
+    {
+      "path": "02-opencv-vision-director/docs/technical-report.md",
+      "bytes": 15003,
+      "sha256": "1a8121ff7e064b5b8be2d2d790c37e898ae2cf9e840f1a2601ea3d2919626113"
+    },
+    {
+      "path": "02-opencv-vision-director/docs/third-party-notices.md",
+      "bytes": 3126,
+      "sha256": "29ade85872e644002a5984967add28446527de1882ff0398e6aa3160be9720d2"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/PUBLIC_VERIFICATION.md",
+      "bytes": 2384,
+      "sha256": "72ec63117a42ab85895b8cf2c206c9489968534a127b863e4d5d8d0bbcf26cbc"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/README.md",
+      "bytes": 458,
+      "sha256": "d5de586c52aecacc55977c178940673222b3dd143022e67e4b503c67bebde9a3"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/e2e.json",
+      "bytes": 1959,
+      "sha256": "2f0b4dce4d480bf9081d9b4934f361431791d57f58ba782f0ab0d27874a1f59d"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/parameter-causality/weight-0/approved-plan.json",
+      "bytes": 919,
+      "sha256": "be70f21fa4b4801e051364ca191cefb92e62d20eacfe6c236ccebbf2bd28b149"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/parameter-causality/weight-0/output.mp4",
+      "bytes": 144816,
+      "sha256": "4bfb2d9abc49b8f483618f921efe8da46aa75ac3f0c56891c9a0fff998791d31"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/parameter-causality/weight-4/approved-plan.json",
+      "bytes": 923,
+      "sha256": "ec9fa6278182b011b6f2cd022b2f74535dd6ccdd87bcd9848e7f26cfdd1c4069"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/parameter-causality/weight-4/output.mp4",
+      "bytes": 164062,
+      "sha256": "b10f589b2072dc9c38fa5d9940e94efea40784e018b0333e6d14b9977a7724e5"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/parameter-causality.json",
+      "bytes": 2280,
+      "sha256": "51f3d27a0d6def0cfb9c4329c685e76f53ae45cb3ea3941c0a0f7f7a0eaea876"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/results.json",
+      "bytes": 16913,
+      "sha256": "b7aa3d9e7b38d382cbf768ddb7ea8cee6a232cf56c97a5cce90292652841d234"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/summary.csv",
+      "bytes": 442,
+      "sha256": "0c54d1799a1a04e3cada58105068eee24cc85c70431e5256f262852c97982aa9"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-all-black/baseline/approved-plan.json",
+      "bytes": 261,
+      "sha256": "92839256076e4d98ecea039cc406f191989f59c0f2cd515822615a64763cba49"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-all-black/baseline/output.mp4",
+      "bytes": 51522,
+      "sha256": "fa22059453bae01a2c9afad0e3b327325e6a2bbe4ec89ded8ece0de80276a79f"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-all-black/vision/approved-plan.json",
+      "bytes": 728,
+      "sha256": "c479720f6610db56998e8aee72c8b114ea7d243095bde6841577ddca9fa6219b"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-all-black/vision/output.mp4",
+      "bytes": 54604,
+      "sha256": "94fece4c4d81d2314d16bc0aa8c105c15f042ca31677a2472fac0b4a96597983"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-intentional-lowlight/baseline/approved-plan.json",
+      "bytes": 261,
+      "sha256": "cf7de5d525010c138dfbb73e4981594db4eaa11626a15f2e5bc49b973aef0848"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-intentional-lowlight/baseline/output.mp4",
+      "bytes": 90816,
+      "sha256": "1f6cf84f72be315cdb702bcd79dd6a874cf65720a1b5a839d89b2041b7acdad3"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-intentional-lowlight/vision/approved-plan.json",
+      "bytes": 947,
+      "sha256": "343713a68a4e9dc2cc70d59c893dc9184ad65ba590312f823c97906f45222318"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-intentional-lowlight/vision/output.mp4",
+      "bytes": 121448,
+      "sha256": "fc76b3c986cf2d85b6848192766043e7963cd80972a2c2b0e7cfa00c786eaf85"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-quality-lab/baseline/approved-plan.json",
+      "bytes": 261,
+      "sha256": "afc20feb828178f6bf177ec838b3cde87101b62a5d5f700422e27c253fca1e6a"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-quality-lab/baseline/output.mp4",
+      "bytes": 120319,
+      "sha256": "941349e8910636c54fffe04abee13e6dc84277c24c9b8ae454730700f86de6cf"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-quality-lab/vision/approved-plan.json",
+      "bytes": 918,
+      "sha256": "4c5469a87a81e119002f6fdbc44fb05cfbeb445d37e927ed81b70e6659bfeada"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-quality-lab/vision/output.mp4",
+      "bytes": 164062,
+      "sha256": "b10f589b2072dc9c38fa5d9940e94efea40784e018b0333e6d14b9977a7724e5"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-scene-cuts/baseline/approved-plan.json",
+      "bytes": 261,
+      "sha256": "0b3e82b6f8f5871dbc36b82a3c7d73812369af8f5c2ec7d7cbf48d612dc73ed7"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-scene-cuts/baseline/output.mp4",
+      "bytes": 129939,
+      "sha256": "39e3e3fe8cdfec0dc00be05b3e13a56003ca4f1696c2d9eed4e0ba0b5109a741"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-scene-cuts/vision/approved-plan.json",
+      "bytes": 920,
+      "sha256": "dc5f9b3c466e83bf5c1c57e0d0e9c2b574e0c0a4199eaa6016e4292fadfadc72"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-scene-cuts/vision/output.mp4",
+      "bytes": 158670,
+      "sha256": "d1a99c19e925044112e36821b75b47e14e1c4ff74c089f90809f9ada42d0bceb"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-soft-background/baseline/approved-plan.json",
+      "bytes": 261,
+      "sha256": "e032ef8f0fb221170e3929eb66b91b5f0a23c21b2b31f502582c009145d8e914"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-soft-background/baseline/output.mp4",
+      "bytes": 93148,
+      "sha256": "e91659a1544cdee4eb1e27e669dafaaac53d3832d2a5a77f786866be56aed7bd"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-soft-background/vision/approved-plan.json",
+      "bytes": 916,
+      "sha256": "d051c399caddb74fdb2d9444a65ad1a88487c38e5ab72830fe9c910a002bef69"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/evaluation/synthetic-soft-background/vision/output.mp4",
+      "bytes": 111899,
+      "sha256": "cdc1e015bf111e8f6ce3280cc4fe91bbf549096d2e4654fb1bbed66cbdc8d0d4"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/fixture-generation.json",
+      "bytes": 2216,
+      "sha256": "74ff1fddf62935b2a2416c2f948bb3e38a0255fb36255e761e3920918ce43cfa"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/independent-container-security.json",
+      "bytes": 525,
+      "sha256": "352d4f17c3912d5c1c45a4f8da748fa2048c3119828c6299f17aa5d4db3cd46f"
+    },
+    {
+      "path": "02-opencv-vision-director/evidence/wheel-sha256.txt",
+      "bytes": 147,
+      "sha256": "5dd2edd7d612251005899c49fd12aef58938dd26858c2c532b8e27118f5b636b"
+    },
+    {
+      "path": "02-opencv-vision-director/examples/README.md",
+      "bytes": 483,
+      "sha256": "f4277061095163ea4ef4ef3e61b6f94ae9b3da3e24c693f7ac99307460a781bc"
+    },
+    {
+      "path": "02-opencv-vision-director/examples/manifest.json",
+      "bytes": 2215,
+      "sha256": "e83822629085adf5927d7edbb9d7308fe88032ba711d8fed8cf16d1b9eb1edc1"
+    },
+    {
+      "path": "02-opencv-vision-director/examples/synthetic-all-black.mp4",
+      "bytes": 42298,
+      "sha256": "580965c953c2185517ae75b7739c0eecd80d89374e171c6ebeb833de2c3046dc"
+    },
+    {
+      "path": "02-opencv-vision-director/examples/synthetic-intentional-lowlight.mp4",
+      "bytes": 109222,
+      "sha256": "cddd3c748b3c4c4d168c489802530d12e9425ef7631dd19911f2c37d290797f0"
+    },
+    {
+      "path": "02-opencv-vision-director/examples/synthetic-quality-lab.mp4",
+      "bytes": 287900,
+      "sha256": "c7e63282552f1ed3413a4ce5f9d06d8fd8fd94587213b5aa4dc8c9a03584e145"
+    },
+    {
+      "path": "02-opencv-vision-director/examples/synthetic-scene-cuts.mp4",
+      "bytes": 219566,
+      "sha256": "b36b4544f4e17dfd660552f89e31661ad5ad6765f46af53e62b2e6bc10bea82c"
+    },
+    {
+      "path": "02-opencv-vision-director/examples/synthetic-soft-background.mp4",
+      "bytes": 116154,
+      "sha256": "9a3510ff3bf8cc447cf003ac66e80b4e31d26b0efe6437e04c7a1cb37f9553c9"
+    },
+    {
+      "path": "02-opencv-vision-director/requirements.lock",
+      "bytes": 434,
+      "sha256": "92d159941428feb5889434185e4ed333700b8bdd6db4050b23c2ef40545cd178"
+    },
+    {
+      "path": "02-opencv-vision-director/start.bat",
+      "bytes": 965,
+      "sha256": "1f0a80f14a27a5f3fd16e77ffbbb9fff72f05710f5b155759a41b3fc24f8801f"
+    },
+    {
+      "path": "02-opencv-vision-director/start.sh",
+      "bytes": 684,
+      "sha256": "1f04f0a608112be6fdf260948c51cf52943aec8acc0fd48678c7c4e5abbf9eed"
+    },
+    {
+      "path": "02-opencv-vision-director/static/app.js",
+      "bytes": 10742,
+      "sha256": "7ce38460c6528712d0332ff6ed4a12baf1b6a12d59d3f5a8135d0eca4352b54c"
+    },
+    {
+      "path": "02-opencv-vision-director/static/help.html",
+      "bytes": 2697,
+      "sha256": "544987e2efc2d430d3f28ef9ea01d025d21d2d365b891452f5f7ceb92426b142"
+    },
+    {
+      "path": "02-opencv-vision-director/static/index.html",
+      "bytes": 7869,
+      "sha256": "9ced35ee8aa5a612b102acde35209760afe07620c1a2edd26679b0374698ee7a"
+    },
+    {
+      "path": "02-opencv-vision-director/static/style.css",
+      "bytes": 13428,
+      "sha256": "dc9b8eb4450afe8db9a76bdce1309d671b91c8d3c03703839cc71a4bb25c432e"
+    },
+    {
+      "path": "02-opencv-vision-director/status.json",
+      "bytes": 1907,
+      "sha256": "900a578200a08f71dc13f6851d0c18ed30a69c2bc7d82d2b383843ec77a78b7a"
+    },
+    {
+      "path": "02-opencv-vision-director/tests/test_core.py",
+      "bytes": 3540,
+      "sha256": "db0bf843a15b42142f1ac96664f74ddac3486ae1cec0d5d2a2e702bb0de55620"
+    },
+    {
+      "path": "02-opencv-vision-director/tools/browser_qa.py",
+      "bytes": 3453,
+      "sha256": "57c419b87b612480bb57cbe4ee1085fe159846f4a80168a349f4943188c0ff95"
+    },
+    {
+      "path": "02-opencv-vision-director/tools/dom_qa.cjs",
+      "bytes": 3570,
+      "sha256": "73e1d68a19cb59b91d206131f67381207af6f5a3435c5561c3d61c519231e101"
+    },
+    {
+      "path": "02-opencv-vision-director/tools/e2e.py",
+      "bytes": 3806,
+      "sha256": "d437c8c013fe65ada3f324f3b64a5ba1d7587f06f167853fd94fc22823bc8312"
+    },
+    {
+      "path": "02-opencv-vision-director/tools/evaluate.py",
+      "bytes": 3148,
+      "sha256": "d74044916dc4f408c725bbb7bc476f9c821c1cff623bdb531620e020e26604e7"
+    },
+    {
+      "path": "02-opencv-vision-director/tools/make_examples.py",
+      "bytes": 3211,
+      "sha256": "ec1d4150dce232ab938617def747335d96adbaab21ea9d59b44052c3d65881c8"
+    },
+    {
+      "path": "02-opencv-vision-director/tools/run_e2e.py",
+      "bytes": 890,
+      "sha256": "2e9ddbc10244c7524a1b0db33ce32e3cc6395946011f9d570e7eda040a4ae642"
+    },
+    {
+      "path": "02-opencv-vision-director/tools/verify_environment.py",
+      "bytes": 419,
+      "sha256": "6567dbed439b353bd8f5a179be549e63137750c950d44fa95b3d45675f7d10c5"
+    },
+    {
+      "path": "02-opencv-vision-director/vision/__init__.py",
+      "bytes": 30,
+      "sha256": "e3fc042640a79f76dc973caa5965699086e8648a2c41859988803af97195c6ef"
+    },
+    {
+      "path": "02-opencv-vision-director/vision/core.py",
+      "bytes": 13753,
+      "sha256": "6e5ddc44529c50b7b8b9ea0f1f55a639f0a3e4404ee496271e613f4140ac4b21"
+    },
+    {
+      "path": "02-opencv-vision-director/vision/server.py",
+      "bytes": 14468,
+      "sha256": "a796854002761872bd9e3de795caa03c99754ddcb6b70fa98d36c68f210da23c"
+    },
+    {
+      "path": "02-opencv-vision-director/vision/upstream_vision.py",
+      "bytes": 3322,
+      "sha256": "93f1981eb546dd1dbf540414f1b95d1bc013d8b1eab597372afc019921d66fe7"
+    },
+    {
+      "path": "03-nebius-evodock/.env.example",
+      "bytes": 415,
+      "sha256": "2dc007feccac4fa799e7adc6a88ff24f2123e4d918908620adc38becb3828c34"
+    },
+    {
+      "path": "03-nebius-evodock/.gitignore",
+      "bytes": 205,
+      "sha256": "fa5925ab4f0a46ed609c0434a70453d3bce7173a9668d3f3b84ac99c385e9177"
+    },
+    {
+      "path": "03-nebius-evodock/LICENSE",
+      "bytes": 1083,
+      "sha256": "a4a189ca3b60bc045c2bf12f49cf9a3ba5f69beb8ee016e0486c56996ef15d72"
+    },
+    {
+      "path": "03-nebius-evodock/PROVENANCE.md",
+      "bytes": 1829,
+      "sha256": "c555f3ed552ab9e256f808716d5713ffd8846cec391a9dfea01de8b0615ef0a8"
+    },
+    {
+      "path": "03-nebius-evodock/README.md",
+      "bytes": 9710,
+      "sha256": "ae009301cf3b17364e4b04c1fe76f6460e2e387099136b845d10e8c809776633"
+    },
+    {
+      "path": "03-nebius-evodock/README.zh-CN.md",
+      "bytes": 4984,
+      "sha256": "54a1d30e4075020da720a812f1f5fa363dee580dbbe18e3fe0e199daf494b22d"
+    },
+    {
+      "path": "03-nebius-evodock/docs/architecture.md",
+      "bytes": 4007,
+      "sha256": "5adc83fd2b2627313014d79071b99822c7a4b10d23d886695787ab9e490a3866"
+    },
+    {
+      "path": "03-nebius-evodock/docs/demo-script.md",
+      "bytes": 2960,
+      "sha256": "eebb49c04b738bc742aa6302749e8aa1e0165fe87bed410203ad5eee21b78d34"
+    },
+    {
+      "path": "03-nebius-evodock/docs/production-readiness.md",
+      "bytes": 2879,
+      "sha256": "8630a42da29fd78943596ce26d3de698625e33ecd664918ba4c560787ef7635a"
+    },
+    {
+      "path": "03-nebius-evodock/docs/provider-setup.md",
+      "bytes": 4895,
+      "sha256": "d045a6822c398ffec4354f3f4e2438dd74bf7e48fbb233bb3640519ea1dd3a04"
+    },
+    {
+      "path": "03-nebius-evodock/docs/sources.md",
+      "bytes": 1717,
+      "sha256": "3ea8eb1d73781d748b58c54acb8d0affea5463ff761562fd0eb1e999d262e2a6"
+    },
+    {
+      "path": "03-nebius-evodock/evidence/PUBLIC_VERIFICATION.md",
+      "bytes": 2447,
+      "sha256": "c0d5b94b94c7b7f94ac9049c4d9dd580b9368a261c872443d9fb6ad2cbc2c7ff"
+    },
+    {
+      "path": "03-nebius-evodock/evidence/README.md",
+      "bytes": 458,
+      "sha256": "d5de586c52aecacc55977c178940673222b3dd143022e67e4b503c67bebde9a3"
+    },
+    {
+      "path": "03-nebius-evodock/evidence/ffprobe.json",
+      "bytes": 281,
+      "sha256": "b160f3a6667e2743e68f3fa9b0bc8354b76c6d999af3914b48482fda8250daf9"
+    },
+    {
+      "path": "03-nebius-evodock/evidence/fixture-evaluation.json",
+      "bytes": 936,
+      "sha256": "a48a93a1b028fb5b509108cf8709ffb5eb4f41f521834ca159b1f1a25d87eb48"
+    },
+    {
+      "path": "03-nebius-evodock/evodock/__init__.py",
+      "bytes": 93,
+      "sha256": "a2d9629ab4d28475f498e041556dfe964d54cbb4d0ef474444934f1588c8b5d1"
+    },
+    {
+      "path": "03-nebius-evodock/evodock/app.py",
+      "bytes": 11155,
+      "sha256": "b03a09febf2dbdffcaae7817c46d22324bed3a6ce2c5d6c942dbc78aec5656ec"
+    },
+    {
+      "path": "03-nebius-evodock/evodock/fixture.py",
+      "bytes": 1405,
+      "sha256": "b508d5f89e63bd4e4d13f023d95746285de51b386ed6689c6209f1581656a23f"
+    },
+    {
+      "path": "03-nebius-evodock/evodock/models.py",
+      "bytes": 1905,
+      "sha256": "7f8da13693ee80511ab728918e40c0cfb98ab713ad8244fa184e8c6ef1c5c8d5"
+    },
+    {
+      "path": "03-nebius-evodock/evodock/provider.py",
+      "bytes": 10321,
+      "sha256": "6480bf459ae3fbe18b79171b5eeff97a280d338311dd4d214d60e591c3a8b226"
+    },
+    {
+      "path": "03-nebius-evodock/evodock/render.py",
+      "bytes": 7178,
+      "sha256": "1cc88429d890a43c1fb504ac9c4f00277d8329a1fc41a82b5e496013a11431f6"
+    },
+    {
+      "path": "03-nebius-evodock/evodock/store.py",
+      "bytes": 6348,
+      "sha256": "1db225cc3b1d512361e42a4eec77d26415e13363b8d44cbb70dd718039a967cb"
+    },
+    {
+      "path": "03-nebius-evodock/examples/README.md",
+      "bytes": 900,
+      "sha256": "eb744bfb902d44f7e361c22551c55b74078ce6d8657701e0c7ffb9389c1409a9"
+    },
+    {
+      "path": "03-nebius-evodock/examples/fixture-1.json",
+      "bytes": 7591,
+      "sha256": "b3a254f296fa6a94babe1f507130427f944ea056ce041000bb67320a955f43ed"
+    },
+    {
+      "path": "03-nebius-evodock/examples/fixture-2.json",
+      "bytes": 7267,
+      "sha256": "198fdc44f01a5a8786e7df1dea8538ddc86fa95cb96d5aaa62c4fb588d46dc4b"
+    },
+    {
+      "path": "03-nebius-evodock/examples/fixture-3.json",
+      "bytes": 7266,
+      "sha256": "fccfd409189501cb7ef675b9808b5dac8af3e27467be294738ab0caba7ef2aed"
+    },
+    {
+      "path": "03-nebius-evodock/examples/manifest.json",
+      "bytes": 858,
+      "sha256": "a19234c90caeb2cb32f293b8bcd94b92eef63ea3f1f93699c0864cf5dae61777"
+    },
+    {
+      "path": "03-nebius-evodock/examples/poster.png",
+      "bytes": 20572,
+      "sha256": "b3a3eccc0250cec433ef65bfe8c20180408d8014c314be5b4bed0999965f886a"
+    },
+    {
+      "path": "03-nebius-evodock/examples/preview.mp4",
+      "bytes": 61229,
+      "sha256": "6b9cce5dcf9af0923f7e8b6b67fcea68b4db82230354aad91f5e37d94efab311"
+    },
+    {
+      "path": "03-nebius-evodock/examples/project.zip",
+      "bytes": 78662,
+      "sha256": "9cbce5f702810c658fe7800e173bf2d15a0527d54357d77f9958f2391a7d3fa8"
+    },
+    {
+      "path": "03-nebius-evodock/examples/trace.json",
+      "bytes": 2356,
+      "sha256": "f1a7659a6802dbb35e3e2ab78c267d66699e306de7e5be51bcdaff47a8cad65f"
+    },
+    {
+      "path": "03-nebius-evodock/install.bat",
+      "bytes": 214,
+      "sha256": "42346dc8f938c5a6d5599f20451462d0fd0bf1b0af48132019379c754f610197"
+    },
+    {
+      "path": "03-nebius-evodock/install.sh",
+      "bytes": 266,
+      "sha256": "a5ac20b000d1ba9640f3c6d76612e7f96ba6573afcd510bf685097b5ee6ecdb3"
+    },
+    {
+      "path": "03-nebius-evodock/launcher.py",
+      "bytes": 618,
+      "sha256": "2a73a6e4624fce3a5722d03ebcafbf50b0528b882021442130de2340595620d8"
+    },
+    {
+      "path": "03-nebius-evodock/requirements.lock",
+      "bytes": 420,
+      "sha256": "1fcedc776d508c2f3ae42286f865031622e41c2edfa6e0e3df00ff8cb15ad703"
+    },
+    {
+      "path": "03-nebius-evodock/start.bat",
+      "bytes": 2440,
+      "sha256": "936a8e86b975e046217adcbda1056595c1cb0a69090f24f2c4897ea676813dd1"
+    },
+    {
+      "path": "03-nebius-evodock/start.sh",
+      "bytes": 1632,
+      "sha256": "f352ea81f4ef6f8a6cd36b192c383e22e75c83bf4bdfa7c2690d36c3aa2bd5a8"
+    },
+    {
+      "path": "03-nebius-evodock/static/app.js",
+      "bytes": 11511,
+      "sha256": "d69886264546c75e73d604f7ab2e8afbb9d8b8c1f57d30b0f498de256c68f65a"
+    },
+    {
+      "path": "03-nebius-evodock/static/index.html",
+      "bytes": 5889,
+      "sha256": "6f6bc88b2e855b07aaaa0a24a5854756d3970b56904ce6d6b9e657fe84f6efc5"
+    },
+    {
+      "path": "03-nebius-evodock/static/style.css",
+      "bytes": 7486,
+      "sha256": "6008ce38ae42b6507f30d0ee976f1344dbe11c8369c30ca6dae3a205237be5b2"
+    },
+    {
+      "path": "03-nebius-evodock/status.json",
+      "bytes": 3499,
+      "sha256": "405c4b5374e621291a81f93e6208128f6e8e836cdc07cde4128159baa24f18bc"
+    },
+    {
+      "path": "03-nebius-evodock/tests/test_contract.py",
+      "bytes": 9248,
+      "sha256": "fd3e471248334214c200dc3d00130398349d5f7cb04e0b76bd44947b7301657d"
+    },
+    {
+      "path": "03-nebius-evodock/tests/test_workflow.py",
+      "bytes": 6213,
+      "sha256": "2004fd0acaa043a97d89db51f9f3995a40587c7dc7d13c3c536744ec76b10abd"
+    },
+    {
+      "path": "03-nebius-evodock/tools/make_samples.py",
+      "bytes": 2407,
+      "sha256": "3a87e0f68cc58d47708d9f19a4d4073153cb98985ac75201c81924c0dbf4320a"
+    },
+    {
+      "path": "03-nebius-evodock/tools/run_with_key.py",
+      "bytes": 1790,
+      "sha256": "2c08fb9590de603ba1b3dfd60e85de6f746edbe2dff166c208d649da4b368654"
+    },
+    {
+      "path": "03-nebius-evodock/tools/verify_package.py",
+      "bytes": 806,
+      "sha256": "4a35345c4919176abb8b817652167c0201e13ef58a75f956422886b8ed7e617d"
+    },
+    {
+      "path": "04-qloo-taste-director/.dockerignore",
+      "bytes": 75,
+      "sha256": "89b31854bcaa9458145a7a10d955167343ac471185bb93158f248c668cccb922"
+    },
+    {
+      "path": "04-qloo-taste-director/.env.example",
+      "bytes": 443,
+      "sha256": "d2a103f36f0dc2f13d2d6c33658f035c52d160c3f84da4c8f39f45237f0dea99"
+    },
+    {
+      "path": "04-qloo-taste-director/.gitignore",
+      "bytes": 113,
+      "sha256": "50fa678c6c2ee044844b4679ff3a0ba273b46a123a04954d38090fc71dbbfcf3"
+    },
+    {
+      "path": "04-qloo-taste-director/Dockerfile",
+      "bytes": 515,
+      "sha256": "c34b0d798d9f440c613abdf942c3fa2b62bc1274f345c0b17d675dcafa720407"
+    },
+    {
+      "path": "04-qloo-taste-director/LICENSE",
+      "bytes": 1083,
+      "sha256": "a4a189ca3b60bc045c2bf12f49cf9a3ba5f69beb8ee016e0486c56996ef15d72"
+    },
+    {
+      "path": "04-qloo-taste-director/README.md",
+      "bytes": 8344,
+      "sha256": "a2e09a4fb9f7d1a2a36f1faf0b554d68fb04ed8a30afa41c48e61d8e43b93b4a"
+    },
+    {
+      "path": "04-qloo-taste-director/README.zh-CN.md",
+      "bytes": 4903,
+      "sha256": "3d506698410fa0b2e919ae5e835352df6d7be5e46e035c66ec9e390698c6d7fb"
+    },
+    {
+      "path": "04-qloo-taste-director/compose.yaml",
+      "bytes": 418,
+      "sha256": "36861130403e27a780bf7ece95673e7c7a3975c7dfd518eddf58e93503a721c2"
+    },
+    {
+      "path": "04-qloo-taste-director/docs/ARCHITECTURE.md",
+      "bytes": 4811,
+      "sha256": "5bb9c3836508caf677b792608f6ff8f476d691b01165e14458bc4ce01f2b9486"
+    },
+    {
+      "path": "04-qloo-taste-director/docs/COMPLIANCE.md",
+      "bytes": 5627,
+      "sha256": "4ac6b052637f154cb773265e7d9321ebb1462fae0a60c3c0cc749d6856bb30f7"
+    },
+    {
+      "path": "04-qloo-taste-director/docs/DEPLOYMENT.md",
+      "bytes": 4819,
+      "sha256": "ff8c6d4346463962bcb5fe37456e7ee8fdc420b8ef0298377b72da6ed01249d4"
+    },
+    {
+      "path": "04-qloo-taste-director/docs/THIRD_PARTY_NOTICES.md",
+      "bytes": 2329,
+      "sha256": "035f79a91f4f59f0163db7a1fdc2a434fad2a9c1d9523f9aa2a389e2eadda7a5"
+    },
+    {
+      "path": "04-qloo-taste-director/docs/VERIFICATION.md",
+      "bytes": 6093,
+      "sha256": "2f0ffd6cdd7c00d5908fa41b9036bf53e7ec030f92b6e4f345fb26822f707d1c"
+    },
+    {
+      "path": "04-qloo-taste-director/evidence/PUBLIC_VERIFICATION.md",
+      "bytes": 2438,
+      "sha256": "658b33e2d8b0447717b280c8a2f1325d7480fe8f08b366e49f6dbc4149fdc444"
+    },
+    {
+      "path": "04-qloo-taste-director/evidence/README.md",
+      "bytes": 458,
+      "sha256": "d5de586c52aecacc55977c178940673222b3dd143022e67e4b503c67bebde9a3"
+    },
+    {
+      "path": "04-qloo-taste-director/evidence/aspect-ratio-renders.json",
+      "bytes": 1225,
+      "sha256": "4d7def9fd7593a23577f673cea7a631b91b6dbde7fcd2812288db67c42d10b0d"
+    },
+    {
+      "path": "04-qloo-taste-director/evidence/ffprobe.json",
+      "bytes": 306,
+      "sha256": "27428ee4c13cf7584e6fd7b1c1b9ab7b408051ce8abf183d3760f1fbe817cba6"
+    },
+    {
+      "path": "04-qloo-taste-director/evidence/official-host-check.json",
+      "bytes": 733,
+      "sha256": "a79e1d2aba40ebe6af47b64fda784fea651169332f8a116398f3463eb08ce5c1"
+    },
+    {
+      "path": "04-qloo-taste-director/install.bat",
+      "bytes": 746,
+      "sha256": "d93c775dfd96511d78fae925abc647b148ee1eaca35925dc046458358f525991"
+    },
+    {
+      "path": "04-qloo-taste-director/install.sh",
+      "bytes": 216,
+      "sha256": "be37d48a0d72db35492ddb3bc9769ff0d7c4e3478d3467072e154b03c2334fa1"
+    },
+    {
+      "path": "04-qloo-taste-director/launcher.py",
+      "bytes": 1450,
+      "sha256": "bdc834be7392f9a42ab2f8fbe5ded89b0e1c25e3aa2e8e83867d11476302148a"
+    },
+    {
+      "path": "04-qloo-taste-director/requirements.lock",
+      "bytes": 391,
+      "sha256": "7a7acb87637a1a60f97353e95ac1500fb2beb6cc7182736ce60a6ce6a857a03a"
+    },
+    {
+      "path": "04-qloo-taste-director/requirements.txt",
+      "bytes": 21,
+      "sha256": "4b838478fac50f282284a607d1adcc8878203956ecf1d79b055c0e87410a1840"
+    },
+    {
+      "path": "04-qloo-taste-director/samples/README.md",
+      "bytes": 483,
+      "sha256": "f4277061095163ea4ef4ef3e61b6f94ae9b3da3e24c693f7ac99307460a781bc"
+    },
+    {
+      "path": "04-qloo-taste-director/samples/demo-brief.md",
+      "bytes": 1841,
+      "sha256": "c4dfce5b09e59800a291d32071ef5ffc95dc8dc705847f1f7f36f53026532bea"
+    },
+    {
+      "path": "04-qloo-taste-director/samples/demo-project.json",
+      "bytes": 13720,
+      "sha256": "7a6f992b54a8ac2332a0863f06f545aa8d5fbd4d73a28c97face3777a994b71f"
+    },
+    {
+      "path": "04-qloo-taste-director/samples/demo-replanned-project.json",
+      "bytes": 14437,
+      "sha256": "7dcf01b61e98c9851e8572dfca76dd596b2b4f4796009957bd4a175956e3c9b1"
+    },
+    {
+      "path": "04-qloo-taste-director/samples/demo-storyboard.mp4",
+      "bytes": 64581,
+      "sha256": "da6202b719c7d4c9e8d633898a444359e0f70a0867fe3c5d38d45e55803e9ca2"
+    },
+    {
+      "path": "04-qloo-taste-director/samples/sample-manifest.json",
+      "bytes": 3914,
+      "sha256": "1f80984833fe8ac93b81d17b0729d4dbbf57d503c0df16454f7ac69bb22c9e36"
+    },
+    {
+      "path": "04-qloo-taste-director/start.bat",
+      "bytes": 398,
+      "sha256": "6b0621bfe020f59a7f753deec4da480a374569067a18b00b806888db7d4d109d"
+    },
+    {
+      "path": "04-qloo-taste-director/start.sh",
+      "bytes": 304,
+      "sha256": "715833797a87567c21abea7223360f608abcd36d2a5a36b4ea6df02885c07a8d"
+    },
+    {
+      "path": "04-qloo-taste-director/static/app.js",
+      "bytes": 19808,
+      "sha256": "84553df1cf1ebcafa271f27868a4686d522038aecd774f4f6af918ce567bbe84"
+    },
+    {
+      "path": "04-qloo-taste-director/static/index.html",
+      "bytes": 6567,
+      "sha256": "2cb89091e9e09ac4ca4f92018d55a661e9d31628f51626656c0e9b0adae2829c"
+    },
+    {
+      "path": "04-qloo-taste-director/static/style.css",
+      "bytes": 14163,
+      "sha256": "13a76cfd829d1c895def46a4498a401cd33460bdb36cd213eacd2ea9d3690c27"
+    },
+    {
+      "path": "04-qloo-taste-director/status.json",
+      "bytes": 2508,
+      "sha256": "9cf3cfb410e0a47dc7b762714e935f922978d6351785e2909426a8c71eaea4b0"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/fixtures.py",
+      "bytes": 2307,
+      "sha256": "55709db62ec52a7b02bbb84e52746fcdcd5fe812c6af25d66ded5897bd7a03d3"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/models.py",
+      "bytes": 2184,
+      "sha256": "9491d9336c22f6af3bd073b244e9f2ee7056831539f100f35daa68f1317d9dd5"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/planner.py",
+      "bytes": 3927,
+      "sha256": "28ac6d10309eb3ca32fd133a8eec814e87ef34a3af64e2178cda9de94d1cdaa4"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/qloo.py",
+      "bytes": 10443,
+      "sha256": "8ef170c1a700fa90aea47e1a5b677674022df55ab9da34e561eb213a9f872da0"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/render.py",
+      "bytes": 5126,
+      "sha256": "b27df05d79d11a74d89d00809d717862a1006549879ec45ccc73e1a0b596ff23"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/server.py",
+      "bytes": 14633,
+      "sha256": "f926f28b30348bf0ab017e9f0c0e3846e9621af238efd94bc0310b2f4ab3b086"
+    },
+    {
+      "path": "04-qloo-taste-director/taste/store.py",
+      "bytes": 6683,
+      "sha256": "d097a64f4890c74381fdac2ed699f9fda97b10516da60a7d0ebfca8e7b1e5e53"
+    },
+    {
+      "path": "04-qloo-taste-director/tests/test_contracts.py",
+      "bytes": 12719,
+      "sha256": "1d3d200f4335305650ccd940e304806f0f4696ae6d028d91236af0fc1cdcf6e3"
+    },
+    {
+      "path": "04-qloo-taste-director/tools/http_smoke.py",
+      "bytes": 1911,
+      "sha256": "4d9dffdf449713333c11580309d265c529a6e0c5138cc1199dde7e4722b47e12"
+    },
+    {
+      "path": "04-qloo-taste-director/tools/make_sample.py",
+      "bytes": 3103,
+      "sha256": "643fc70efd04a278a42156049629d72c104eee19293f6758ca67ddad616010b0"
+    },
+    {
+      "path": "04-qloo-taste-director/vendor/evovid/models.py",
+      "bytes": 1156,
+      "sha256": "1333f0a95d2dc202e2f59010be47646923e39da42fc02b04b3ac6009e0a459df"
+    },
+    {
+      "path": "04-qloo-taste-director/vendor/evovid/render.py",
+      "bytes": 3680,
+      "sha256": "ab98fcf9ea366c29515be7375607a82a11b7ecfd70f11665b605f9ea32243b23"
+    },
+    {
+      "path": "04-qloo-taste-director/vendor/evovid/store.py",
+      "bytes": 3375,
+      "sha256": "293224e7f6694a396d7701b352c02bbd4f537c88e6752339384abb2ecf775de2"
+    },
+    {
+      "path": "05-paypal-creator-commerce/.env.example",
+      "bytes": 483,
+      "sha256": "5428de4d451cfc9413935441f0161d33c5d7a60660e30688374e0ec8125bfd42"
+    },
+    {
+      "path": "05-paypal-creator-commerce/.gitignore",
+      "bytes": 116,
+      "sha256": "cd8bc86470765c4a642ba2bc1440adbe8d373d55b05b31e00b25eb7f5571c8c7"
+    },
+    {
+      "path": "05-paypal-creator-commerce/LICENSE",
+      "bytes": 1083,
+      "sha256": "a4a189ca3b60bc045c2bf12f49cf9a3ba5f69beb8ee016e0486c56996ef15d72"
+    },
+    {
+      "path": "05-paypal-creator-commerce/README.md",
+      "bytes": 9446,
+      "sha256": "adf5025815ceb054321d596966e9139a852eeda12332d91e1a0c25423d01fdd7"
+    },
+    {
+      "path": "05-paypal-creator-commerce/README.zh-CN.md",
+      "bytes": 5957,
+      "sha256": "1e88cdcc7c3eaa89354f122e030c50778e91fd159f0177a9d0720ae7223ae1b6"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/__init__.py",
+      "bytes": 77,
+      "sha256": "421b446e64adfc52f7d274ff236416ab126de9f635d798a6b2b1acd1384cc4d2"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/app.py",
+      "bytes": 21274,
+      "sha256": "5fcb2efe79be6257942f5e1d5d13670e973d6535b7fef022793543792923fb62"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/config.py",
+      "bytes": 2936,
+      "sha256": "ed9d1afddd9fb7d200789a1eb9bb154ef145439ab4147861b97cf7a6ececbf7c"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/models.py",
+      "bytes": 1522,
+      "sha256": "d4d3802e08f2d4fa659b074680d6930245f769318196a7bbab6fec55ef7cca72"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/paypal.py",
+      "bytes": 7350,
+      "sha256": "245b325b2a1e9e38b50130c51cbeff9166b7a36e6ec8b24ab8a89aa64a274298"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/planner.py",
+      "bytes": 3006,
+      "sha256": "cdedd960e2d792fb075c30a4d4c9b8c730f5faf2f5d7f7537eaed52e42ca5cb9"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/render.py",
+      "bytes": 5128,
+      "sha256": "202151ec593fb469ab12ec9a22eec5632836ef60838e3b83d909d39da4c19e7f"
+    },
+    {
+      "path": "05-paypal-creator-commerce/commerce/store.py",
+      "bytes": 2408,
+      "sha256": "b1f60cf3a93b9131b03e94e273065441240cc279b2dbc554504caa0cb98f5c45"
+    },
+    {
+      "path": "05-paypal-creator-commerce/docs/architecture-security.md",
+      "bytes": 6468,
+      "sha256": "284ec099c702175abd079ace58847c8e634d2d7c9a69ad06a8415b382761b7ae"
+    },
+    {
+      "path": "05-paypal-creator-commerce/docs/demo-script.md",
+      "bytes": 3458,
+      "sha256": "555a6384f14524b8cecb81d3021700fdb712a91cc3b548b7f8e69dc24f7f24bb"
+    },
+    {
+      "path": "05-paypal-creator-commerce/docs/sandbox-setup.md",
+      "bytes": 5018,
+      "sha256": "dcd2fc4594a6567a44b72dd095abe92ab29f614923cd6821e2a52d39e4e7b594"
+    },
+    {
+      "path": "05-paypal-creator-commerce/docs/upstream-and-license.md",
+      "bytes": 3245,
+      "sha256": "126e03cc35a9abae094c033c8ee2ee452abe2c7660e57fb47c5fb266eaf84205"
+    },
+    {
+      "path": "05-paypal-creator-commerce/evidence/PUBLIC_VERIFICATION.md",
+      "bytes": 2338,
+      "sha256": "45e98c21677fe89732f37b52b06a4949a0a31034f2bad389d4e665571e18632f"
+    },
+    {
+      "path": "05-paypal-creator-commerce/evidence/README.md",
+      "bytes": 458,
+      "sha256": "d5de586c52aecacc55977c178940673222b3dd143022e67e4b503c67bebde9a3"
+    },
+    {
+      "path": "05-paypal-creator-commerce/evidence/sample-export-ffprobe.json",
+      "bytes": 2664,
+      "sha256": "553a0bd5c8f93126cc3321d1fbe5e4a0f7d02c166af9d1a07724a4c2760a1e02"
+    },
+    {
+      "path": "05-paypal-creator-commerce/evidence/sample-export-fixture.mp4",
+      "bytes": 372420,
+      "sha256": "fad6129f469413a230db5b739a6ee184341d2e7d90e4bbcbcf587066c8aef346"
+    },
+    {
+      "path": "05-paypal-creator-commerce/evidence/sample-export-frame.png",
+      "bytes": 129805,
+      "sha256": "7c43d0dae993bce81e500361fbbd2c04b36c6b18f123ff139b139dbf75f992d8"
+    },
+    {
+      "path": "05-paypal-creator-commerce/evidence/sample-preview-fixture.mp4",
+      "bytes": 218112,
+      "sha256": "014050f227d401aaed220c1b6b0e00d757b69b47f1a81f905792bdfb4ed7f333"
+    },
+    {
+      "path": "05-paypal-creator-commerce/evidence/sample-storyboard.json",
+      "bytes": 884,
+      "sha256": "e3bc578b644a643caaec19b14650c85dfa20a38f68847ada055af0f7290f56b9"
+    },
+    {
+      "path": "05-paypal-creator-commerce/launcher.py",
+      "bytes": 860,
+      "sha256": "34af1391ca1a0d9a53641891db0c91ab545c054d0bd4abd1f7e404f394cf1dcc"
+    },
+    {
+      "path": "05-paypal-creator-commerce/requirements.lock",
+      "bytes": 392,
+      "sha256": "5d230ca66c743d6d4f6acec9a09d63eb19ef8142a609a314cef130ac769c7188"
+    },
+    {
+      "path": "05-paypal-creator-commerce/start.bat",
+      "bytes": 494,
+      "sha256": "595dfc6d05c5a0eaf14686eb563a9c160b0b8bcc6a040253633e3c23456e61a4"
+    },
+    {
+      "path": "05-paypal-creator-commerce/start.sh",
+      "bytes": 235,
+      "sha256": "4e4263e3da4846ff905ece2f201be9f181388ca9d430e21ab62dc1c2066b2e42"
+    },
+    {
+      "path": "05-paypal-creator-commerce/static/app.js",
+      "bytes": 12408,
+      "sha256": "ce5e0ac527e4ec0082adfb6cf1e9a6e2f14e31c374bcb0484be2d8b6bfac023c"
+    },
+    {
+      "path": "05-paypal-creator-commerce/static/index.html",
+      "bytes": 7048,
+      "sha256": "0392caa6e012ad9692617a7a112a658844e3bda5450b53a934d0c2bd302d56c9"
+    },
+    {
+      "path": "05-paypal-creator-commerce/static/style.css",
+      "bytes": 13117,
+      "sha256": "eb5e460a0ac78a5dfbdd0bc0becf7e9a0a2b7705d3fbfda6ff6cfe0e8e472a2c"
+    },
+    {
+      "path": "05-paypal-creator-commerce/status.json",
+      "bytes": 4200,
+      "sha256": "62969f4bf7969aac02c8e23b8b977bdc35feccead2c4f37e46f8476394405414"
+    },
+    {
+      "path": "05-paypal-creator-commerce/tests/test_commerce.py",
+      "bytes": 18793,
+      "sha256": "e174ddafe6a4172102619b12a4b27731d275be41a9ed8824f001116584c21179"
+    },
+    {
+      "path": "05-paypal-creator-commerce/tools/make_evidence.py",
+      "bytes": 2773,
+      "sha256": "7e8a7a5487f99d0fa8b006915f61377a2df937adbb23e4aed3ee0748a955b657"
+    },
+    {
+      "path": "05-paypal-creator-commerce/upstream_reference/models.py",
+      "bytes": 1156,
+      "sha256": "1333f0a95d2dc202e2f59010be47646923e39da42fc02b04b3ac6009e0a459df"
+    },
+    {
+      "path": "05-paypal-creator-commerce/upstream_reference/providers.py",
+      "bytes": 2425,
+      "sha256": "851eace8b852c9c0866fffa12e776b7050589508e613f324872b46d07e7a6795"
+    },
+    {
+      "path": "05-paypal-creator-commerce/upstream_reference/render.py",
+      "bytes": 3680,
+      "sha256": "ab98fcf9ea366c29515be7375607a82a11b7ecfd70f11665b605f9ea32243b23"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1083,
+      "sha256": "a4a189ca3b60bc045c2bf12f49cf9a3ba5f69beb8ee016e0486c56996ef15d72"
+    },
+    {
+      "path": "PUBLIC-SOURCE-REVIEW.md",
+      "bytes": 4820,
+      "sha256": "3d3fb08f594b81256dc7d5b7791c1fac8d87c0a006ea20927451e397df588e0b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3308,
+      "sha256": "1763e4f0049c0d87aa167fcc5da7db40570b5a94bf1c905fecc77c1a5909b315"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2559,
+      "sha256": "e71f2a2a8a7286ae701110658b7395756f7b855aeb6bc3376c89d1de7d9533d0"
+    },
+    {
+      "path": "tools/verify_public_source.py",
+      "bytes": 5830,
+      "sha256": "2cbe43c11744857a9e4f957d9eb25949da308a43e564446700319a10d7cccd9a"
+    }
+  ]
+}
