@@ -4,7 +4,7 @@ Five independent local-first prototypes derived from the public MIT [EvoVid Pock
 
 ## Choose one edition
 
-- [01 · EvoBridge Creator Assistant](01-amazon-evobridge/README.md), port 8711: bilingual Alexa+ experience simulation; deterministic local commands, no actual Alexa integration.
+- [01 · EvoBridge Creator Assistant](01-amazon-evobridge/README.md), port 8711: bilingual Alexa+ experience simulation; deterministic local commands, no actual Alexa integration. [Submitted to Amazon on Devpost](https://devpost.com/software/evobridge-creator-assistant), with a [public English demo](https://vimeo.com/1234797768); see its [bounded Linux browser verification and remaining limits](01-amazon-evobridge/evidence/PUBLIC_VERIFICATION.md).
 - [02 · EvoVid Vision Director](02-opencv-vision-director/README.md), port 8712: actual OpenCV 5 video analysis and approved FFmpeg edits. AWS deployment is prepared, not performed.
 - [03 · EvoDock Storyboard Agent](03-nebius-evodock/README.md), port 8713: offline fixture workflow; Nebius/NVIDIA integration is implemented but zero live provider requests are verified.
 - [04 · EvoVid Taste Director](04-qloo-taste-director/README.md), port 8714: authored synthetic Qloo-style demo data; real Qloo response data is absent and must not be published.

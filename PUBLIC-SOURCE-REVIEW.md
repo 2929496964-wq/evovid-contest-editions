@@ -33,7 +33,11 @@ Complete upstream MIT text and original copyright are preserved. Claimed unmodif
 
 The unchanged Nebius sample ZIP is covered here by the surrounding repository license. Its internal manifest correctly describes its archive entries. Separate distribution should use a newly regenerated archive containing the full license and updated internal manifest.
 
-## Release gates that remain
+## Later Amazon-only status update — 2026-10-11
+
+The Amazon edition now has a [submitted Devpost project](https://devpost.com/software/evobridge-creator-assistant) and [public English Vimeo demo](https://vimeo.com/1234797768). Its later Linux browser coverage, uncommitted exact-Origin working-copy adaptation, sampled playback checks and remaining limits are documented in [Amazon verification](01-amazon-evobridge/evidence/PUBLIC_VERIFICATION.md). This documentation/metadata refresh does not change executable source or the other four editions. The original staging review and test results above remain historical records.
+
+## Original release gates (historical; later Amazon status above)
 
 - Explicit owner authorization for the public repository, exact audience and source scope
 - Verified public repository/commit and user/judge access after publication

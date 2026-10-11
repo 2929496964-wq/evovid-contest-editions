@@ -5,7 +5,7 @@
   "hash_algorithm": "SHA-256",
   "self_excluded": "PUBLIC-MANIFEST.json",
   "file_count": 253,
-  "total_bytes_excluding_manifest": 4600314,
+  "total_bytes_excluding_manifest": 4610335,
   "files": [
     {
       "path": ".gitignore",
@@ -24,8 +24,8 @@
     },
     {
       "path": "01-amazon-evobridge/README.md",
-      "bytes": 10646,
-      "sha256": "fe4f7ad735968fc20039185a7b8073087e79642465cad5d149ce2cf794676b32"
+      "bytes": 12677,
+      "sha256": "14c82d001b4d1d5a8520bfe650a074529bf2716810ccc3c68d755afe211c5a4f"
     },
     {
       "path": "01-amazon-evobridge/THIRD_PARTY_NOTICES.md",
@@ -34,38 +34,38 @@
     },
     {
       "path": "01-amazon-evobridge/docs/ARCHITECTURE.md",
-      "bytes": 3876,
-      "sha256": "44fd31db2f0ed60400a51d0b057130731d7e6c3abcba9fe160c50548f87444fb"
+      "bytes": 4076,
+      "sha256": "a01716307ae9cedccd1467491529249d1ada115bdd3c1f160f8a5cfd1bc9e852"
     },
     {
       "path": "01-amazon-evobridge/docs/DEMO_SCRIPT.md",
-      "bytes": 3188,
-      "sha256": "3af2fa3ca821dcc2fcee4802e4cfb67824fdf43c8521da2937c872e5a8e4dc95"
+      "bytes": 3463,
+      "sha256": "0d08724e6c3c2421fa344bf44c4b58b9fa4c20cd279f66f698b962c9276cdb43"
     },
     {
       "path": "01-amazon-evobridge/docs/FRICTION_LOG.md",
-      "bytes": 2867,
-      "sha256": "fcd371dd1ee167835a251fc32a2125040b0c39da134da6f5c3535c53305d2265"
+      "bytes": 3306,
+      "sha256": "eb03d93a8ff1c52ac3c70c59922c5fd475ede30e4e1258484886907604effa15"
     },
     {
       "path": "01-amazon-evobridge/docs/JUDGING.md",
-      "bytes": 3935,
-      "sha256": "e59b443ef5d96bc2f8bd8d8a44782deb0695adc3120fabbde45d0fa0fb996dde"
+      "bytes": 4878,
+      "sha256": "08ff298fe9ea65721d0eaeae266f483c3f0c512a718f826c73fa24fa94615bb5"
     },
     {
       "path": "01-amazon-evobridge/docs/PROVENANCE.md",
-      "bytes": 1688,
-      "sha256": "dc81b1d64c4f6017a71ace373df0063e0d9eb49c0367435508f2d185963b3bf1"
+      "bytes": 1872,
+      "sha256": "cacb7bb99a392fd42d951713b8e94e0be889a5aabac4a0db554e9d96ec1a3ca9"
     },
     {
       "path": "01-amazon-evobridge/docs/TEST_REPORT.md",
-      "bytes": 4747,
-      "sha256": "5f616fe51c34d51a5188a0e41d2027ddc5e45af223432c1cf2470d70b7b523cf"
+      "bytes": 5241,
+      "sha256": "f50e1c3a4ec2d165f4f5b26263384f0893f2d919a722751aeb4d80a8f9d61945"
     },
     {
       "path": "01-amazon-evobridge/evidence/PUBLIC_VERIFICATION.md",
-      "bytes": 2208,
-      "sha256": "7a0752f770268f55757f77b0883042689dc433d1485a0317e177090eb5403354"
+      "bytes": 4268,
+      "sha256": "2875e2e2e11bd80ebdaeb1a4fa1af6a52b713f12569c89d8b8a7136264366c8f"
     },
     {
       "path": "01-amazon-evobridge/evidence/README.md",
@@ -199,8 +199,8 @@
     },
     {
       "path": "01-amazon-evobridge/status.json",
-      "bytes": 2910,
-      "sha256": "5e42c44a3565a4c11652f834dec08409e623d517f2a461db6dec7bea819c4bcd"
+      "bytes": 5367,
+      "sha256": "5e538bcb049dd5e26fe2bbe7045c469fea07d6f112f747b235e63d8e84665e62"
     },
     {
       "path": "01-amazon-evobridge/tests/test_model.py",
@@ -1254,13 +1254,13 @@
     },
     {
       "path": "PUBLIC-SOURCE-REVIEW.md",
-      "bytes": 4820,
-      "sha256": "3d3fb08f594b81256dc7d5b7791c1fac8d87c0a006ea20927451e397df588e0b"
+      "bytes": 5486,
+      "sha256": "86cb13b2bd54202ceffccd911201603a762dd06ac8005107f44909d6a3bb0614"
     },
     {
       "path": "README.md",
-      "bytes": 3308,
-      "sha256": "1763e4f0049c0d87aa167fcc5da7db40570b5a94bf1c905fecc77c1a5909b315"
+      "bytes": 3580,
+      "sha256": "82dde8d0191f7b5e1fae4ba29664b39d65724b53b64f2319a0c844923585844c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
