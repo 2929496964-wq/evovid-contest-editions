@@ -1,0 +1,15 @@
+{
+  "clips": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "exposure": 0.0,
+      "sharpen": false,
+      "segment_id": null,
+      "reason": "Human-selected"
+    }
+  ],
+  "approved": true,
+  "expected_duration": 3.0,
+  "approved_at": 1791695046.8454394
+}
