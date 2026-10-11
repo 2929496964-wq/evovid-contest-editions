@@ -1,0 +1,559 @@
+{
+  "definition": "Technical warning means a sampled frame is black, underexposed, overexposed or soft. Low change is mean absolute grayscale difference <0.5. Neither is semantic quality. Histogram jumps are not human-rated cut quality.",
+  "samples": [
+    {
+      "file": "synthetic-all-black.mp4",
+      "synthetic": true,
+      "duration": 3.0,
+      "fps": 24.0,
+      "input": {
+        "technical_warning_ratio": 1.0,
+        "black_sample_ratio": 1.0,
+        "low_change_ratio": 1.0,
+        "mean_luma": 0.0,
+        "mean_sharpness": 0.0,
+        "histogram_jump_count": 0
+      },
+      "baseline": {
+        "technical_warning_ratio": 1.0,
+        "black_sample_ratio": 1.0,
+        "low_change_ratio": 1.0,
+        "mean_luma": 0.0,
+        "mean_sharpness": 0.0,
+        "histogram_jump_count": 0
+      },
+      "vision": {
+        "technical_warning_ratio": 1.0,
+        "black_sample_ratio": 1.0,
+        "low_change_ratio": 1.0,
+        "mean_luma": 0.0,
+        "mean_sharpness": 0.0,
+        "histogram_jump_count": 0
+      },
+      "analysis_seconds": 0.0748,
+      "baseline_render_seconds": 0.3747,
+      "vision_render_seconds": 0.6523,
+      "plan": {
+        "clips": [
+          {
+            "segment_id": 0,
+            "start": 0.0,
+            "end": 1.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": -68.0,
+            "reason": "Quality score -68.0; luma 0.0, sharpness 0.0. Warnings: black, soft."
+          },
+          {
+            "segment_id": 1,
+            "start": 1.0,
+            "end": 2.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": -68.0,
+            "reason": "Quality score -68.0; luma 0.0, sharpness 0.0. Warnings: black, soft."
+          },
+          {
+            "segment_id": 2,
+            "start": 2.0,
+            "end": 3.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": -68.0,
+            "reason": "Quality score -68.0; luma 0.0, sharpness 0.0. Warnings: black, soft."
+          }
+        ],
+        "target_seconds": 3.0,
+        "sharpness_weight": 1.0,
+        "approved": true,
+        "policy": "Quality-ranked one-second bins, chronological output. User confirmation required.",
+        "excluded": []
+      },
+      "weight0_selection": [
+        0,
+        1,
+        2
+      ],
+      "weight4_selection": [
+        0,
+        1,
+        2
+      ],
+      "weight_changed_selection": false,
+      "input_sha256": "580965c953c2185517ae75b7739c0eecd80d89374e171c6ebeb833de2c3046dc",
+      "baseline_sha256": "fa22059453bae01a2c9afad0e3b327325e6a2bbe4ec89ded8ece0de80276a79f",
+      "vision_sha256": "94fece4c4d81d2314d16bc0aa8c105c15f042ca31677a2472fac0b4a96597983",
+      "human_preference": null,
+      "cut_quality_human_rating": null
+    },
+    {
+      "file": "synthetic-intentional-lowlight.mp4",
+      "synthetic": true,
+      "duration": 6.0,
+      "fps": 24.0,
+      "input": {
+        "technical_warning_ratio": 1.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 1.0,
+        "mean_luma": 13.461,
+        "mean_sharpness": 286.064,
+        "histogram_jump_count": 0
+      },
+      "baseline": {
+        "technical_warning_ratio": 1.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 1.0,
+        "mean_luma": 13.473,
+        "mean_sharpness": 279.231,
+        "histogram_jump_count": 0
+      },
+      "vision": {
+        "technical_warning_ratio": 1.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.9333,
+        "mean_luma": 13.467,
+        "mean_sharpness": 278.958,
+        "histogram_jump_count": 0
+      },
+      "analysis_seconds": 0.0726,
+      "baseline_render_seconds": 0.3801,
+      "vision_render_seconds": 0.82,
+      "plan": {
+        "clips": [
+          {
+            "segment_id": 0,
+            "start": 0.0,
+            "end": 1.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 32.475,
+            "reason": "Quality score 32.5; luma 13.5, sharpness 286.9. Warnings: underexposed."
+          },
+          {
+            "segment_id": 1,
+            "start": 1.0,
+            "end": 2.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 32.425,
+            "reason": "Quality score 32.4; luma 13.5, sharpness 284.6. Warnings: underexposed."
+          },
+          {
+            "segment_id": 2,
+            "start": 2.0,
+            "end": 3.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 32.296,
+            "reason": "Quality score 32.3; luma 13.5, sharpness 286.1. Warnings: underexposed."
+          },
+          {
+            "segment_id": 5,
+            "start": 5.0,
+            "end": 6.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 32.196,
+            "reason": "Quality score 32.2; luma 13.5, sharpness 285.8. Warnings: underexposed."
+          }
+        ],
+        "target_seconds": 4.0,
+        "sharpness_weight": 1.0,
+        "approved": true,
+        "policy": "Quality-ranked one-second bins, chronological output. User confirmation required.",
+        "excluded": [
+          {
+            "segment_id": 3,
+            "score": 32.139,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 4,
+            "score": 32.177,
+            "reason": "Below target-duration selection cutoff."
+          }
+        ]
+      },
+      "weight0_selection": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "weight4_selection": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "weight_changed_selection": true,
+      "input_sha256": "cddd3c748b3c4c4d168c489802530d12e9425ef7631dd19911f2c37d290797f0",
+      "baseline_sha256": "1f6cf84f72be315cdb702bcd79dd6a874cf65720a1b5a839d89b2041b7acdad3",
+      "vision_sha256": "fc76b3c986cf2d85b6848192766043e7963cd80972a2c2b0e7cfa00c786eaf85",
+      "human_preference": null,
+      "cut_quality_human_rating": null
+    },
+    {
+      "file": "synthetic-quality-lab.mp4",
+      "synthetic": true,
+      "duration": 12.0,
+      "fps": 24.0,
+      "input": {
+        "technical_warning_ratio": 0.3333,
+        "black_sample_ratio": 0.1667,
+        "low_change_ratio": 0.2979,
+        "mean_luma": 71.146,
+        "mean_sharpness": 453.449,
+        "histogram_jump_count": 5
+      },
+      "baseline": {
+        "technical_warning_ratio": 0.5,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.4667,
+        "mean_luma": 55.225,
+        "mean_sharpness": 458.396,
+        "histogram_jump_count": 1
+      },
+      "vision": {
+        "technical_warning_ratio": 0.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.0,
+        "mean_luma": 110.782,
+        "mean_sharpness": 747.636,
+        "histogram_jump_count": 1
+      },
+      "analysis_seconds": 0.1398,
+      "baseline_render_seconds": 0.4192,
+      "vision_render_seconds": 0.8351,
+      "plan": {
+        "clips": [
+          {
+            "segment_id": 0,
+            "start": 0.0,
+            "end": 1.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 96.067,
+            "reason": "Quality score 96.1; luma 94.5, sharpness 670.6. Warnings: none."
+          },
+          {
+            "segment_id": 1,
+            "start": 1.0,
+            "end": 2.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 96.062,
+            "reason": "Quality score 96.1; luma 94.5, sharpness 670.0. Warnings: none."
+          },
+          {
+            "segment_id": 8,
+            "start": 8.0,
+            "end": 9.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 98.522,
+            "reason": "Quality score 98.5; luma 126.9, sharpness 830.4. Warnings: none."
+          },
+          {
+            "segment_id": 9,
+            "start": 9.0,
+            "end": 10.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 98.522,
+            "reason": "Quality score 98.5; luma 126.9, sharpness 831.6. Warnings: none."
+          }
+        ],
+        "target_seconds": 4.0,
+        "sharpness_weight": 1.0,
+        "approved": true,
+        "policy": "Quality-ranked one-second bins, chronological output. User confirmation required.",
+        "excluded": [
+          {
+            "segment_id": 2,
+            "score": 38.925,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 3,
+            "score": 38.954,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 4,
+            "score": 91.571,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 5,
+            "score": 91.546,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 6,
+            "score": -68.0,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 7,
+            "score": -68.0,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 10,
+            "score": 96.057,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 11,
+            "score": 96.057,
+            "reason": "Below target-duration selection cutoff."
+          }
+        ]
+      },
+      "weight0_selection": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "weight4_selection": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "weight_changed_selection": true,
+      "input_sha256": "c7e63282552f1ed3413a4ce5f9d06d8fd8fd94587213b5aa4dc8c9a03584e145",
+      "baseline_sha256": "941349e8910636c54fffe04abee13e6dc84277c24c9b8ae454730700f86de6cf",
+      "vision_sha256": "b10f589b2072dc9c38fa5d9940e94efea40784e018b0333e6d14b9977a7724e5",
+      "human_preference": null,
+      "cut_quality_human_rating": null
+    },
+    {
+      "file": "synthetic-scene-cuts.mp4",
+      "synthetic": true,
+      "duration": 8.0,
+      "fps": 24.0,
+      "input": {
+        "technical_warning_ratio": 0.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.0,
+        "mean_luma": 110.685,
+        "mean_sharpness": 745.589,
+        "histogram_jump_count": 3
+      },
+      "baseline": {
+        "technical_warning_ratio": 0.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.0,
+        "mean_luma": 110.724,
+        "mean_sharpness": 737.262,
+        "histogram_jump_count": 1
+      },
+      "vision": {
+        "technical_warning_ratio": 0.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.0,
+        "mean_luma": 127.016,
+        "mean_sharpness": 813.958,
+        "histogram_jump_count": 0
+      },
+      "analysis_seconds": 0.0995,
+      "baseline_render_seconds": 0.415,
+      "vision_render_seconds": 0.8305,
+      "plan": {
+        "clips": [
+          {
+            "segment_id": 2,
+            "start": 2.0,
+            "end": 3.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 98.538,
+            "reason": "Quality score 98.5; luma 126.9, sharpness 818.7. Warnings: none."
+          },
+          {
+            "segment_id": 3,
+            "start": 3.0,
+            "end": 4.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 98.537,
+            "reason": "Quality score 98.5; luma 126.9, sharpness 817.7. Warnings: none."
+          },
+          {
+            "segment_id": 6,
+            "start": 6.0,
+            "end": 7.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 98.529,
+            "reason": "Quality score 98.5; luma 126.9, sharpness 825.8. Warnings: none."
+          },
+          {
+            "segment_id": 7,
+            "start": 7.0,
+            "end": 8.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 98.53,
+            "reason": "Quality score 98.5; luma 126.9, sharpness 823.6. Warnings: none."
+          }
+        ],
+        "target_seconds": 4.0,
+        "sharpness_weight": 1.0,
+        "approved": true,
+        "policy": "Quality-ranked one-second bins, chronological output. User confirmation required.",
+        "excluded": [
+          {
+            "segment_id": 0,
+            "score": 96.066,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 1,
+            "score": 96.061,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 4,
+            "score": 96.055,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 5,
+            "score": 96.055,
+            "reason": "Below target-duration selection cutoff."
+          }
+        ]
+      },
+      "weight0_selection": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "weight4_selection": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "weight_changed_selection": false,
+      "input_sha256": "b36b4544f4e17dfd660552f89e31661ad5ad6765f46af53e62b2e6bc10bea82c",
+      "baseline_sha256": "39e3e3fe8cdfec0dc00be05b3e13a56003ca4f1696c2d9eed4e0ba0b5109a741",
+      "vision_sha256": "d1a99c19e925044112e36821b75b47e14e1c4ff74c089f90809f9ada42d0bceb",
+      "human_preference": null,
+      "cut_quality_human_rating": null
+    },
+    {
+      "file": "synthetic-soft-background.mp4",
+      "synthetic": true,
+      "duration": 6.0,
+      "fps": 24.0,
+      "input": {
+        "technical_warning_ratio": 0.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.0,
+        "mean_luma": 95.615,
+        "mean_sharpness": 315.086,
+        "histogram_jump_count": 0
+      },
+      "baseline": {
+        "technical_warning_ratio": 0.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.0,
+        "mean_luma": 95.633,
+        "mean_sharpness": 307.54,
+        "histogram_jump_count": 0
+      },
+      "vision": {
+        "technical_warning_ratio": 0.0,
+        "black_sample_ratio": 0.0,
+        "low_change_ratio": 0.0,
+        "mean_luma": 95.629,
+        "mean_sharpness": 309.467,
+        "histogram_jump_count": 0
+      },
+      "analysis_seconds": 0.0799,
+      "baseline_render_seconds": 0.4121,
+      "vision_render_seconds": 0.8214,
+      "plan": {
+        "clips": [
+          {
+            "segment_id": 2,
+            "start": 2.0,
+            "end": 3.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 92.401,
+            "reason": "Quality score 92.4; luma 95.6, sharpness 315.5. Warnings: none."
+          },
+          {
+            "segment_id": 3,
+            "start": 3.0,
+            "end": 4.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 92.399,
+            "reason": "Quality score 92.4; luma 95.6, sharpness 315.4. Warnings: none."
+          },
+          {
+            "segment_id": 4,
+            "start": 4.0,
+            "end": 5.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 92.417,
+            "reason": "Quality score 92.4; luma 95.6, sharpness 316.2. Warnings: none."
+          },
+          {
+            "segment_id": 5,
+            "start": 5.0,
+            "end": 6.0,
+            "exposure": 0.0,
+            "sharpen": false,
+            "score": 92.385,
+            "reason": "Quality score 92.4; luma 95.6, sharpness 314.8. Warnings: none."
+          }
+        ],
+        "target_seconds": 4.0,
+        "sharpness_weight": 1.0,
+        "approved": true,
+        "policy": "Quality-ranked one-second bins, chronological output. User confirmation required.",
+        "excluded": [
+          {
+            "segment_id": 0,
+            "score": 92.374,
+            "reason": "Below target-duration selection cutoff."
+          },
+          {
+            "segment_id": 1,
+            "score": 92.367,
+            "reason": "Below target-duration selection cutoff."
+          }
+        ]
+      },
+      "weight0_selection": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "weight4_selection": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "weight_changed_selection": true,
+      "input_sha256": "9a3510ff3bf8cc447cf003ac66e80b4e31d26b0efe6437e04c7a1cb37f9553c9",
+      "baseline_sha256": "e91659a1544cdee4eb1e27e669dafaaac53d3832d2a5a77f786866be56aed7bd",
+      "vision_sha256": "cdc1e015bf111e8f6ce3280cc4fe91bbf549096d2e4654fb1bbed66cbdc8d0d4",
+      "human_preference": null,
+      "cut_quality_human_rating": null
+    }
+  ],
+  "limits": "5 synthetic fixtures only; no real-world benchmark or human study. Intentional low light and softness are preserved failure cases."
+}

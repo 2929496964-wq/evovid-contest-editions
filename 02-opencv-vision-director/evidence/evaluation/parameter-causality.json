@@ -1,0 +1,88 @@
+[
+  {
+    "weight": 0,
+    "clips": [
+      {
+        "segment_id": 4,
+        "start": 4.0,
+        "end": 5.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 46.263,
+        "reason": "Quality score 46.3; luma 95.1, sharpness 287.2. Warnings: none."
+      },
+      {
+        "segment_id": 5,
+        "start": 5.0,
+        "end": 6.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 46.265,
+        "reason": "Quality score 46.3; luma 95.1, sharpness 286.2. Warnings: none."
+      },
+      {
+        "segment_id": 8,
+        "start": 8.0,
+        "end": 9.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 48.522,
+        "reason": "Quality score 48.5; luma 126.9, sharpness 830.4. Warnings: none."
+      },
+      {
+        "segment_id": 9,
+        "start": 9.0,
+        "end": 10.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 48.522,
+        "reason": "Quality score 48.5; luma 126.9, sharpness 831.6. Warnings: none."
+      }
+    ],
+    "output_sha256": "4bfb2d9abc49b8f483618f921efe8da46aa75ac3f0c56891c9a0fff998791d31",
+    "duration": 4.0
+  },
+  {
+    "weight": 4,
+    "clips": [
+      {
+        "segment_id": 0,
+        "start": 0.0,
+        "end": 1.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 246.067,
+        "reason": "Quality score 246.1; luma 94.5, sharpness 670.6. Warnings: none."
+      },
+      {
+        "segment_id": 1,
+        "start": 1.0,
+        "end": 2.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 246.062,
+        "reason": "Quality score 246.1; luma 94.5, sharpness 670.0. Warnings: none."
+      },
+      {
+        "segment_id": 8,
+        "start": 8.0,
+        "end": 9.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 248.522,
+        "reason": "Quality score 248.5; luma 126.9, sharpness 830.4. Warnings: none."
+      },
+      {
+        "segment_id": 9,
+        "start": 9.0,
+        "end": 10.0,
+        "exposure": 0.0,
+        "sharpen": false,
+        "score": 248.522,
+        "reason": "Quality score 248.5; luma 126.9, sharpness 831.6. Warnings: none."
+      }
+    ],
+    "output_sha256": "b10f589b2072dc9c38fa5d9940e94efea40784e018b0333e6d14b9977a7724e5",
+    "duration": 4.0
+  }
+]
