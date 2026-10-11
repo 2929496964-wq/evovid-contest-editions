@@ -1,0 +1,10 @@
+.venv/
+runtime/
+runtime-*/
+__pycache__/
+.pytest_cache/
+.wheel-cache/
+.env
+*.log
+
+.qa-node/

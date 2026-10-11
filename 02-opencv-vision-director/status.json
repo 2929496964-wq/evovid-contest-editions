@@ -1,0 +1,55 @@
+{
+  "project": "EvoVid Vision Director",
+  "version": "1.0.0",
+  "default_port": 8712,
+  "status": "local_pipeline_verified_external_validation_pending",
+  "opencv_runtime": "5.0.0",
+  "opencv_distribution": "5.0.0.93",
+  "passed": {
+    "core_tests": 18,
+    "http_e2e_checks": 16,
+    "independent_http_checks": 23,
+    "independent_dom_checks": 6,
+    "synthetic_evaluation_inputs": 5,
+    "actual_h264_aac_render": true,
+    "input_preservation": true,
+    "cancellation_recovery": true,
+    "parameter_changes_actual_output": true,
+    "bundled_ffmpeg_fallback": true,
+    "dom_api_checks": 8,
+    "independent_container_security_checks": 3
+  },
+  "not_tested": [
+    "Windows launch/runtime",
+    "Docker build",
+    "Full browser visual rendering and playback",
+    "Real-world user footage benchmark",
+    "Human preference study"
+  ],
+  "external_blockers": [
+    "Full Chromium visual/playback test remained blocked in the build environment; raw failure logs excluded from public source.",
+    "AWS account, IAM, upload, deployment and spending authorization absent; no deployment performed"
+  ],
+  "prepared": [
+    "Responsive WebUI",
+    "Windows and Linux launchers",
+    "Docker image definition",
+    "Private EC2 CloudFormation with compute disabled by default",
+    "English technical report",
+    "4:30 demo script"
+  ],
+  "aws_deployed": false,
+  "competition_submitted": false,
+  "real_world_accuracy_claim": false,
+  "source_provenance": "EvoVid MIT upstream 31255c83ff1f57143c5cf819c6e7a6bf8fc12fbe",
+  "packaging_exclude": [
+    ".venv",
+    ".wheel-cache",
+    ".qa-node",
+    "runtime",
+    "runtime-*",
+    "__pycache__",
+    ".pytest_cache"
+  ],
+  "public_source_note": "Historical build status retained; raw execution logs, internal QA artifacts, runtime/session data and old package inventories are excluded. See evidence/PUBLIC_VERIFICATION.md and ../PUBLIC-MANIFEST.json."
+}

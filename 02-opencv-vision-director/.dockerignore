@@ -1,0 +1,11 @@
+.venv
+runtime
+runtime-*
+evidence
+__pycache__
+.pytest_cache
+.git
+*.zip
+.wheel-cache
+
+.qa-node
