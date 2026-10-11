@@ -1,0 +1,241 @@
+{
+  "id": "4ebea4ee6b284964a5d1db9b78a64634",
+  "created": 1791695206.2663631,
+  "brief": "A warm introduction for a fictional reusable bottle. Show curiosity, a detail, and an invitation.",
+  "mode": "fixture",
+  "revision": 3,
+  "history": [
+    {
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "number": 3,
+      "at": 1791695207.1008968,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "product",
+            "caption": "A warm introduction for a fictional reusable bottle. Show curiosity, a detail, and an invitation.",
+            "color": "amber",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 3,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "product",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "amber",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 4,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "amber",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 3,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A warm introduction for a fictional reusable bottle. Show curiosi"
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": "Make the palette warmer"
+    },
+    {
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "number": 2,
+      "at": 1791695206.798072,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "product",
+            "caption": "A warm introduction for a fictional reusable bottle. Show curiosity, a detail, and an invitation.",
+            "color": "mint",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 3,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "product",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "sky",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 4,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "violet",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 3,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A warm introduction for a fictional reusable bottle. Show curiosi"
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": "Make it shorter"
+    },
+    {
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "number": 1,
+      "at": 1791695206.5210497,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "product",
+            "caption": "A warm introduction for a fictional reusable bottle. Show curiosity, a detail, and an invitation.",
+            "color": "mint",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 4,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "product",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "sky",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 5,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "violet",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 4,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A warm introduction for a fictional reusable bottle. Show curiosi"
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": ""
+    }
+  ],
+  "storyboard": {
+    "scenes": [
+      {
+        "asset_id": "product",
+        "caption": "A warm introduction for a fictional reusable bottle. Show curiosity, a detail, and an invitation.",
+        "color": "amber",
+        "id": "s1",
+        "motion": "rise",
+        "seconds": 3,
+        "title": "Make room for an idea"
+      },
+      {
+        "asset_id": "product",
+        "caption": "A clear rhythm. One considered detail at a time.",
+        "color": "amber",
+        "id": "s2",
+        "motion": "drift",
+        "seconds": 4,
+        "title": "See it take shape"
+      },
+      {
+        "asset_id": "type",
+        "caption": "Start small. Create something that lasts.",
+        "color": "amber",
+        "id": "s3",
+        "motion": "pulse",
+        "seconds": 3,
+        "title": "Bring the story home"
+      }
+    ],
+    "title": "A warm introduction for a fictional reusable bottle. Show curiosi"
+  },
+  "jobs": [
+    {
+      "id": "8d5c1b8e71fd41e39359b3c2cca15f44",
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "kind": "revise",
+      "status": "complete",
+      "at": 1791695206.8488765,
+      "error": null,
+      "result": {
+        "revision": 3
+      }
+    },
+    {
+      "id": "aa639a674bce40caaac5cc0333ab22a1",
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "kind": "revise",
+      "status": "complete",
+      "at": 1791695206.5464659,
+      "error": null,
+      "result": {
+        "revision": 2
+      }
+    },
+    {
+      "id": "451f46964f1647429b839640ca6e5aec",
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "kind": "plan",
+      "status": "complete",
+      "at": 1791695206.2675877,
+      "error": null,
+      "result": {
+        "revision": 1
+      }
+    }
+  ],
+  "traces": [
+    {
+      "seq": 11,
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "at": 1791695206.5207136,
+      "detail": {
+        "input_sha256": "d7178522e56204f241ca573e0110acc9f51d35b13ea2284fab52423aeff40967",
+        "model": null,
+        "output_sha256": "851667552ef58b2490a82fd92e5f7518e5a164c86804950cd795cb9cdb8b36bb",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "5795ecafa2d02e19112971327a0d6441b1da6fd510744f4cb2472245beefafb1"
+    },
+    {
+      "seq": 12,
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "at": 1791695206.7977922,
+      "detail": {
+        "input_sha256": "45d3c32bc6f906013d4e22b228025eb4e34fbe73cc3cf3a74969fcfc07a9bcf7",
+        "model": null,
+        "output_sha256": "490934c169a358b6cbb434cc333864d27e4497534232c5211d99fee7bcc21acd",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "5795ecafa2d02e19112971327a0d6441b1da6fd510744f4cb2472245beefafb1",
+      "hash": "1551856473cf220e12574a840ee55fbe0c454f1d5df0ada1a335a52f6df98af8"
+    },
+    {
+      "seq": 13,
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "at": 1791695207.1006463,
+      "detail": {
+        "input_sha256": "99adf0ed7d0b7d03d319e66d5625a151d0f639329749c6bcf6b16fd15b04be39",
+        "model": null,
+        "output_sha256": "b8cb70f97b38c001d7335cb6ff53b3e14f5e15801ac07d45b7d94fd71d9a4f97",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "1551856473cf220e12574a840ee55fbe0c454f1d5df0ada1a335a52f6df98af8",
+      "hash": "4e01d24c2af1fee2f0e64682ebec32947f1a9cc8462fd197543a259418b469cf"
+    }
+  ],
+  "trace_integrity": true
+}

@@ -1,0 +1,241 @@
+{
+  "id": "24b16f29c3a5476396192b5853f6184d",
+  "created": 1791695208.684903,
+  "brief": "A calm nature journal in three geometric scenes.",
+  "mode": "fixture",
+  "revision": 3,
+  "history": [
+    {
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "number": 3,
+      "at": 1791695209.4769568,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "nature",
+            "caption": "A calm nature journal in three geometric scenes.",
+            "color": "amber",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 3,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "nature",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "amber",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 4,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "amber",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 3,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A calm nature journal in three geometric scenes."
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": "Make the palette warmer"
+    },
+    {
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "number": 2,
+      "at": 1791695209.205851,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "nature",
+            "caption": "A calm nature journal in three geometric scenes.",
+            "color": "mint",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 3,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "nature",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "sky",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 4,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "violet",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 3,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A calm nature journal in three geometric scenes."
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": "Make it shorter"
+    },
+    {
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "number": 1,
+      "at": 1791695208.936466,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "nature",
+            "caption": "A calm nature journal in three geometric scenes.",
+            "color": "mint",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 4,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "nature",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "sky",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 5,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "violet",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 4,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A calm nature journal in three geometric scenes."
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": ""
+    }
+  ],
+  "storyboard": {
+    "scenes": [
+      {
+        "asset_id": "nature",
+        "caption": "A calm nature journal in three geometric scenes.",
+        "color": "amber",
+        "id": "s1",
+        "motion": "rise",
+        "seconds": 3,
+        "title": "Make room for an idea"
+      },
+      {
+        "asset_id": "nature",
+        "caption": "A clear rhythm. One considered detail at a time.",
+        "color": "amber",
+        "id": "s2",
+        "motion": "drift",
+        "seconds": 4,
+        "title": "See it take shape"
+      },
+      {
+        "asset_id": "type",
+        "caption": "Start small. Create something that lasts.",
+        "color": "amber",
+        "id": "s3",
+        "motion": "pulse",
+        "seconds": 3,
+        "title": "Bring the story home"
+      }
+    ],
+    "title": "A calm nature journal in three geometric scenes."
+  },
+  "jobs": [
+    {
+      "id": "e0dc8cf2415b49338fba50fe17453b17",
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "kind": "revise",
+      "status": "complete",
+      "at": 1791695209.2249098,
+      "error": null,
+      "result": {
+        "revision": 3
+      }
+    },
+    {
+      "id": "d178551e579841239d55b3c73013a63e",
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "kind": "revise",
+      "status": "complete",
+      "at": 1791695208.9542859,
+      "error": null,
+      "result": {
+        "revision": 2
+      }
+    },
+    {
+      "id": "6bb722fc002a4a2690809119d2f5b250",
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "kind": "plan",
+      "status": "complete",
+      "at": 1791695208.685173,
+      "error": null,
+      "result": {
+        "revision": 1
+      }
+    }
+  ],
+  "traces": [
+    {
+      "seq": 15,
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "at": 1791695208.9361925,
+      "detail": {
+        "input_sha256": "dc691c2229fe7278e0bdd083409b5175967379b03e31249b4a425bd541768720",
+        "model": null,
+        "output_sha256": "fb5b301da35feb93d7196116faeeca56e341a6aaeed5dd1fd030b07bfe157e1c",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "5be312e8161508595036be12f0de91c2e90b5a0ed26bb0ec2342fe5921e08ee7"
+    },
+    {
+      "seq": 16,
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "at": 1791695209.2055511,
+      "detail": {
+        "input_sha256": "774a750a74dbafbca8ca50ebbdc14ca0f9bc8dada5481ee5f90291f0ce8a12fb",
+        "model": null,
+        "output_sha256": "de4bcc35baea9bed1c8f924d6aa38a9352207369c1a61cb383e2e3b03dbe8db0",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "5be312e8161508595036be12f0de91c2e90b5a0ed26bb0ec2342fe5921e08ee7",
+      "hash": "21e0fbb94da85edcad40a91cc87daaab74f15f0ccdf799c0d557f364c18a5486"
+    },
+    {
+      "seq": 17,
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "at": 1791695209.4766855,
+      "detail": {
+        "input_sha256": "2837b835b6c8a259f4534a0cd4cf2bd9339aae226955cae6cc54f6831faf0689",
+        "model": null,
+        "output_sha256": "0a5aa4b43fc2b3cac3fe1e55613cfb3f174ffe1b288e41558c4fc2cd650db33f",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "21e0fbb94da85edcad40a91cc87daaab74f15f0ccdf799c0d557f364c18a5486",
+      "hash": "4efcd0e0eeb5c4ec6f9ad37c16dbb08aea3235025bb6803c7ed58a2f9592ad92"
+    }
+  ],
+  "trace_integrity": true
+}

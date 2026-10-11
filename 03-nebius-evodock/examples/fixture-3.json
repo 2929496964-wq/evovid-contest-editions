@@ -1,0 +1,241 @@
+{
+  "id": "5f61dc2439374fd7acf67de9320afbe6",
+  "created": 1791695209.4977698,
+  "brief": "A playful space postcard with an orbital opening.",
+  "mode": "fixture",
+  "revision": 3,
+  "history": [
+    {
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "number": 3,
+      "at": 1791695210.29637,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "orbit",
+            "caption": "A playful space postcard with an orbital opening.",
+            "color": "amber",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 3,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "orbit",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "amber",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 4,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "amber",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 3,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A playful space postcard with an orbital opening."
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": "Make the palette warmer"
+    },
+    {
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "number": 2,
+      "at": 1791695210.024245,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "orbit",
+            "caption": "A playful space postcard with an orbital opening.",
+            "color": "mint",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 3,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "orbit",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "sky",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 4,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "violet",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 3,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A playful space postcard with an orbital opening."
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": "Make it shorter"
+    },
+    {
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "number": 1,
+      "at": 1791695209.749992,
+      "board": {
+        "scenes": [
+          {
+            "asset_id": "orbit",
+            "caption": "A playful space postcard with an orbital opening.",
+            "color": "mint",
+            "id": "s1",
+            "motion": "rise",
+            "seconds": 4,
+            "title": "Make room for an idea"
+          },
+          {
+            "asset_id": "orbit",
+            "caption": "A clear rhythm. One considered detail at a time.",
+            "color": "sky",
+            "id": "s2",
+            "motion": "drift",
+            "seconds": 5,
+            "title": "See it take shape"
+          },
+          {
+            "asset_id": "type",
+            "caption": "Start small. Create something that lasts.",
+            "color": "violet",
+            "id": "s3",
+            "motion": "pulse",
+            "seconds": 4,
+            "title": "Bring the story home"
+          }
+        ],
+        "title": "A playful space postcard with an orbital opening."
+      },
+      "source": "DEMO_FIXTURE",
+      "instruction": ""
+    }
+  ],
+  "storyboard": {
+    "scenes": [
+      {
+        "asset_id": "orbit",
+        "caption": "A playful space postcard with an orbital opening.",
+        "color": "amber",
+        "id": "s1",
+        "motion": "rise",
+        "seconds": 3,
+        "title": "Make room for an idea"
+      },
+      {
+        "asset_id": "orbit",
+        "caption": "A clear rhythm. One considered detail at a time.",
+        "color": "amber",
+        "id": "s2",
+        "motion": "drift",
+        "seconds": 4,
+        "title": "See it take shape"
+      },
+      {
+        "asset_id": "type",
+        "caption": "Start small. Create something that lasts.",
+        "color": "amber",
+        "id": "s3",
+        "motion": "pulse",
+        "seconds": 3,
+        "title": "Bring the story home"
+      }
+    ],
+    "title": "A playful space postcard with an orbital opening."
+  },
+  "jobs": [
+    {
+      "id": "3a99754a16d146b1bea96126ac52b844",
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "kind": "revise",
+      "status": "complete",
+      "at": 1791695210.0441241,
+      "error": null,
+      "result": {
+        "revision": 3
+      }
+    },
+    {
+      "id": "ce2dfdb608b94377b552d40d3b7fccbb",
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "kind": "revise",
+      "status": "complete",
+      "at": 1791695209.772084,
+      "error": null,
+      "result": {
+        "revision": 2
+      }
+    },
+    {
+      "id": "377f41e703c44733afdbf5d5945bb018",
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "kind": "plan",
+      "status": "complete",
+      "at": 1791695209.4980347,
+      "error": null,
+      "result": {
+        "revision": 1
+      }
+    }
+  ],
+  "traces": [
+    {
+      "seq": 18,
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "at": 1791695209.7497194,
+      "detail": {
+        "input_sha256": "a2bdcae02859dbb38fa299c6dda77cfea95ddb23de53d4de00c0edd20193f60e",
+        "model": null,
+        "output_sha256": "763d4095b1b928fe19ea4bdef17bb71a8b8d11b8c63a6a5822d713ac978bbeba",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "6ff3017a4de681a5c77d912a9ec4c027d1c44f91dbf1f1f93a32d01d82743aba"
+    },
+    {
+      "seq": 19,
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "at": 1791695210.023936,
+      "detail": {
+        "input_sha256": "a2d63436c0a01d3dc9f4384d9b653d9bbaedde7cfb4355d07ed95d13377bec50",
+        "model": null,
+        "output_sha256": "957f6d729e4a3f85e54a4299ee3481635e3821c192416c9f66bbe8ecf6bf184d",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "6ff3017a4de681a5c77d912a9ec4c027d1c44f91dbf1f1f93a32d01d82743aba",
+      "hash": "47b1f56a0f70f0fbc7a7868b705abb98e232c7f220d599f9db99d95233389184"
+    },
+    {
+      "seq": 20,
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "at": 1791695210.2961051,
+      "detail": {
+        "input_sha256": "207735e5e2c410ba32b0ed135428aad0ec136331bb62538a2cb74ab914499a33",
+        "model": null,
+        "output_sha256": "4aa1cdf2ebe6bc773cbb8ec6d6772e84de8fbf257f1c8a9d52c9fe0dc1cfaa2e",
+        "source": "DEMO_FIXTURE",
+        "status": "deterministic_template",
+        "usage": null
+      },
+      "previous_hash": "47b1f56a0f70f0fbc7a7868b705abb98e232c7f220d599f9db99d95233389184",
+      "hash": "0d13e2bcfb4584d07a03e8bc3a530b742074274c2e9a4b679dcd7e43c4484e7d"
+    }
+  ],
+  "trace_integrity": true
+}

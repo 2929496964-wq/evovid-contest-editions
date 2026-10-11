@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "mode": "fixture",
+  "revision": 3,
+  "board_sha256": "b8cb70f97b38c001d7335cb6ff53b3e14f5e15801ac07d45b7d94fd71d9a4f97",
+  "files": {
+    "storyboard.json": "f4916ec6457e7fbc399374bdbe7779bc534bb18bd03de8fe75df4f84008ebad5",
+    "project.json": "8f6592772f1addc2dacb5ace293279c1f85155bbac8c9bee9ca000342a71aaf7",
+    "trace.json": "f1a7659a6802dbb35e3e2ab78c267d66699e306de7e5be51bcdaff47a8cad65f",
+    "captions.srt": "2e32cc6c9fb42afc5f157e4608d61959ff324246648e2c2ee5c89b09d27b3c26",
+    "preview.mp4": "6b9cce5dcf9af0923f7e8b6b67fcea68b4db82230354aad91f5e37d94efab311",
+    "poster.png": "b3a3eccc0250cec433ef65bfe8c20180408d8014c314be5b4bed0999965f886a",
+    "preview.html": "a3cf9c7772c1cb411b6ee2fe56eea210f062ddd53ef1ecba3ab1b3f77ebec90c",
+    "README.txt": "bdf7c292df2d712f9198df2f65bb786e8807f485be375e4f520d02b8dbbab05e"
+  }
+}
