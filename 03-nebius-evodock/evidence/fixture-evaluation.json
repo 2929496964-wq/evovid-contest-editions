@@ -1,0 +1,32 @@
+{
+  "label": "OFFLINE FIXTURE EVALUATION \u2014 NOT LIVE NEBIUS EVIDENCE",
+  "cases": [
+    {
+      "project": "4ebea4ee6b284964a5d1db9b78a64634",
+      "mode": "DEMO_FIXTURE",
+      "brief": "A warm introduction for a fictional reusable bottle. Show curiosity, a detail, and an invitation.",
+      "revisions": 3,
+      "provider_calls": 0,
+      "trace_integrity": true
+    },
+    {
+      "project": "24b16f29c3a5476396192b5853f6184d",
+      "mode": "DEMO_FIXTURE",
+      "brief": "A calm nature journal in three geometric scenes.",
+      "revisions": 3,
+      "provider_calls": 0,
+      "trace_integrity": true
+    },
+    {
+      "project": "5f61dc2439374fd7acf67de9320afbe6",
+      "mode": "DEMO_FIXTURE",
+      "brief": "A playful space postcard with an orbital opening.",
+      "revisions": 3,
+      "provider_calls": 0,
+      "trace_integrity": true
+    }
+  ],
+  "success_count": 3,
+  "sample_count": 3,
+  "real_model_calls": 0
+}
