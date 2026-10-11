@@ -51,5 +51,26 @@
     "__pycache__",
     ".pytest_cache"
   ],
-  "public_source_note": "Historical build status retained; raw execution logs, internal QA artifacts, runtime/session data and old package inventories are excluded. See evidence/PUBLIC_VERIFICATION.md and ../PUBLIC-MANIFEST.json."
+  "public_source_note": "Historical build status in passed retained separately from offline_contract_recheck; raw execution logs, internal QA artifacts, runtime/session data and old package inventories are excluded. Dockerfile default and new environment regression tests differ from the original public copy. See evidence/PUBLIC_VERIFICATION.md and ../PUBLIC-MANIFEST.json.",
+  "offline_contract_recheck": {
+    "date_utc": "2026-10-11",
+    "scope": "Offline Linux source/ASGI regression with injected environment labels; not Docker or AWS execution",
+    "pytest_total": 25,
+    "original_core_tests": 18,
+    "new_environment_regressions": 7,
+    "exit_code": 0,
+    "docker_default_execution_environment": "container",
+    "ec2_template_execution_environment": "aws-ec2",
+    "nonlocal_token_guard_unchanged": true,
+    "checks": [
+      "Dockerfile literal ENV default and explicit EC2 override",
+      "Health and JSON/ZIP audit labels for container and aws-ec2; false AWS-verification flags",
+      "Missing and incorrect request authentication rejected",
+      "Startup rejects absent and 23-character tokens in both non-local modes; 24-character test token accepted"
+    ],
+    "existing_linux_dependencies_reused": true,
+    "docker_run": false,
+    "aws_run": false,
+    "prior_http_dom_evaluation_rerun": false
+  }
 }

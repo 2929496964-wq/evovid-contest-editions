@@ -56,6 +56,7 @@ For HTTP end-to-end checks, keep the server running and in another terminal run:
 On Windows use `.venv\Scripts\python.exe` instead. Some restricted execution tools isolate loopback namespaces per command; `tools/run_e2e.py` launches both the server and checks in one process tree.
 
 - [Public verification summary](evidence/PUBLIC_VERIFICATION.md): historical unit/integration results, including real decode/render and bundled-FFmpeg fallback, plus source-staging rechecks. Raw test logs are excluded.
+- Latest offline contract recheck: **25 pytest cases passed** (18 original and 7 new). The new source/ASGI cases check environment labels and authentication; they do not run Docker or AWS. The image default is `container`; the EC2 template explicitly overrides it to `aws-ec2`.
 - `evidence/e2e.json`: actual HTTP workflow results and checks.
 - `evidence/evaluation/results.json`: five synthetic inputs, fixed-prefix baseline and actual vision-selected outputs; no invented human ratings.
 - `evidence/evaluation/parameter-causality.json`: changing sharpness weight changes selection and actual output hashes on the same input.
