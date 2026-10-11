@@ -1,0 +1,39 @@
+{
+  "clips": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "exposure": 0.0,
+      "sharpen": false,
+      "segment_id": 0,
+      "reason": "Quality score 246.1; luma 94.5, sharpness 670.6. Warnings: none."
+    },
+    {
+      "start": 1.0,
+      "end": 2.0,
+      "exposure": 0.0,
+      "sharpen": false,
+      "segment_id": 1,
+      "reason": "Quality score 246.1; luma 94.5, sharpness 670.0. Warnings: none."
+    },
+    {
+      "start": 8.0,
+      "end": 9.0,
+      "exposure": 0.0,
+      "sharpen": false,
+      "segment_id": 8,
+      "reason": "Quality score 248.5; luma 126.9, sharpness 830.4. Warnings: none."
+    },
+    {
+      "start": 9.0,
+      "end": 10.0,
+      "exposure": 0.0,
+      "sharpen": false,
+      "segment_id": 9,
+      "reason": "Quality score 248.5; luma 126.9, sharpness 831.6. Warnings: none."
+    }
+  ],
+  "approved": true,
+  "expected_duration": 4.0,
+  "approved_at": 1791695150.3046973
+}
