@@ -1,0 +1,205 @@
+{
+  "project": {
+    "id": "b427c92e58044801bd3bddfe0388088c",
+    "title": "阳台上的小菜园",
+    "theme": "阳台上的小菜园",
+    "audience": "城市新手园丁",
+    "duration": 11,
+    "tone": "calm",
+    "format": "portrait",
+    "scenes": [
+      {
+        "id": "37a7b5a6ee514e14b517ddf2070d371a",
+        "title": "一个小小的开始",
+        "caption": "阳台上的小菜园，从一个想法出发。",
+        "seconds": 4,
+        "color": "#668b88",
+        "motion": "drift",
+        "asset": null
+      },
+      {
+        "id": "9ce02e3f03404ffeb170ae12cfc9916c",
+        "title": "把好奇变成行动",
+        "caption": "为城市新手园丁，留住值得分享的瞬间。",
+        "seconds": 3,
+        "color": "#7493a7",
+        "motion": "rise",
+        "asset": null
+      },
+      {
+        "id": "f4cff65280614e3ca86f8904eb5b6d58",
+        "title": "一起，让故事继续",
+        "caption": "一起播下明天的绿色。",
+        "seconds": 4,
+        "color": "#9b8ba6",
+        "motion": "pulse",
+        "asset": null
+      }
+    ],
+    "revision": 4,
+    "status": "storyboard",
+    "wizard": {},
+    "history": [
+      {
+        "id": "b427c92e58044801bd3bddfe0388088c",
+        "title": "Untitled story",
+        "theme": "",
+        "audience": "",
+        "duration": 12,
+        "tone": "warm",
+        "format": "landscape",
+        "scenes": [],
+        "status": "brief",
+        "wizard": {}
+      },
+      {
+        "id": "b427c92e58044801bd3bddfe0388088c",
+        "title": "阳台上的小菜园",
+        "theme": "阳台上的小菜园",
+        "audience": "城市新手园丁",
+        "duration": 12,
+        "tone": "calm",
+        "format": "landscape",
+        "scenes": [
+          {
+            "id": "37a7b5a6ee514e14b517ddf2070d371a",
+            "title": "一个小小的开始",
+            "caption": "阳台上的小菜园，从一个想法出发。",
+            "seconds": 4,
+            "color": "#668b88",
+            "motion": "drift",
+            "asset": null
+          },
+          {
+            "id": "9ce02e3f03404ffeb170ae12cfc9916c",
+            "title": "把好奇变成行动",
+            "caption": "为城市新手园丁，留住值得分享的瞬间。",
+            "seconds": 4,
+            "color": "#7493a7",
+            "motion": "rise",
+            "asset": null
+          },
+          {
+            "id": "f4cff65280614e3ca86f8904eb5b6d58",
+            "title": "一起，让故事继续",
+            "caption": "现在，就是开始的好时刻。",
+            "seconds": 4,
+            "color": "#9b8ba6",
+            "motion": "pulse",
+            "asset": null
+          }
+        ],
+        "status": "storyboard",
+        "wizard": {}
+      },
+      {
+        "id": "b427c92e58044801bd3bddfe0388088c",
+        "title": "阳台上的小菜园",
+        "theme": "阳台上的小菜园",
+        "audience": "城市新手园丁",
+        "duration": 11,
+        "tone": "calm",
+        "format": "landscape",
+        "scenes": [
+          {
+            "id": "37a7b5a6ee514e14b517ddf2070d371a",
+            "title": "一个小小的开始",
+            "caption": "阳台上的小菜园，从一个想法出发。",
+            "seconds": 4,
+            "color": "#668b88",
+            "motion": "drift",
+            "asset": null
+          },
+          {
+            "id": "9ce02e3f03404ffeb170ae12cfc9916c",
+            "title": "把好奇变成行动",
+            "caption": "为城市新手园丁，留住值得分享的瞬间。",
+            "seconds": 3,
+            "color": "#7493a7",
+            "motion": "rise",
+            "asset": null
+          },
+          {
+            "id": "f4cff65280614e3ca86f8904eb5b6d58",
+            "title": "一起，让故事继续",
+            "caption": "现在，就是开始的好时刻。",
+            "seconds": 4,
+            "color": "#9b8ba6",
+            "motion": "pulse",
+            "asset": null
+          }
+        ],
+        "status": "storyboard",
+        "wizard": {}
+      },
+      {
+        "id": "b427c92e58044801bd3bddfe0388088c",
+        "title": "阳台上的小菜园",
+        "theme": "阳台上的小菜园",
+        "audience": "城市新手园丁",
+        "duration": 11,
+        "tone": "calm",
+        "format": "landscape",
+        "scenes": [
+          {
+            "id": "37a7b5a6ee514e14b517ddf2070d371a",
+            "title": "一个小小的开始",
+            "caption": "阳台上的小菜园，从一个想法出发。",
+            "seconds": 4,
+            "color": "#668b88",
+            "motion": "drift",
+            "asset": null
+          },
+          {
+            "id": "9ce02e3f03404ffeb170ae12cfc9916c",
+            "title": "把好奇变成行动",
+            "caption": "为城市新手园丁，留住值得分享的瞬间。",
+            "seconds": 3,
+            "color": "#7493a7",
+            "motion": "rise",
+            "asset": null
+          },
+          {
+            "id": "f4cff65280614e3ca86f8904eb5b6d58",
+            "title": "一起，让故事继续",
+            "caption": "一起播下明天的绿色。",
+            "seconds": 4,
+            "color": "#9b8ba6",
+            "motion": "pulse",
+            "asset": null
+          }
+        ],
+        "status": "storyboard",
+        "wizard": {}
+      }
+    ],
+    "messages": [
+      {
+        "role": "assistant",
+        "text": "Let’s make a small story worth sharing. Start with “Create a project” or choose a sample below. / 输入「创建项目」，我会逐项收集主题、受众、时长和语气。"
+      },
+      {
+        "role": "user",
+        "text": "Shorten scene 2"
+      },
+      {
+        "role": "assistant",
+        "text": "Storyboard updated and saved locally. / 分镜已更新并自动保存在本机。"
+      },
+      {
+        "role": "user",
+        "text": "Text 3: 一起播下明天的绿色。"
+      },
+      {
+        "role": "assistant",
+        "text": "Storyboard updated and saved locally. / 分镜已更新并自动保存在本机。"
+      }
+    ]
+  },
+  "job_id": "8ac3875bbae147a4aca6ae714007e064",
+  "sha256": "2f4c836934ffbc925a5fcc4b5fb41569b6bd96d172f81e6a47c3b27fbfb7f8a1",
+  "bytes": 100498,
+  "format": "portrait",
+  "duration": 11,
+  "renderer": "Pillow motion graphics + FFmpeg H.264; no neural model"
+}

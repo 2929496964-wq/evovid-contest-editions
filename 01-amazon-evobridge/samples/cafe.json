@@ -1,0 +1,165 @@
+{
+  "project": {
+    "id": "ed06fad4cc4141bab819a62038fb9e4c",
+    "title": "The corner café",
+    "theme": "The corner café",
+    "audience": "our neighborhood",
+    "duration": 8,
+    "tone": "warm",
+    "format": "landscape",
+    "scenes": [
+      {
+        "id": "b23d3e59ac624993bf56f8022c852749",
+        "title": "A small beginning",
+        "caption": "The corner café starts with one idea.",
+        "seconds": 3,
+        "color": "#e78455",
+        "motion": "drift",
+        "asset": null
+      },
+      {
+        "id": "44c36a0cf19d4c378b09c97886e6988c",
+        "title": "Make room for possibility",
+        "caption": "A moment worth sharing with our neighborhood.",
+        "seconds": 2,
+        "color": "#b16649",
+        "motion": "rise",
+        "asset": null
+      },
+      {
+        "id": "d4310d2ca2334edbbc6de68c65801075",
+        "title": "Let the story continue",
+        "caption": "Your next chapter starts here.",
+        "seconds": 3,
+        "color": "#cca468",
+        "motion": "pulse",
+        "asset": null
+      }
+    ],
+    "revision": 3,
+    "status": "storyboard",
+    "wizard": {},
+    "history": [
+      {
+        "id": "ed06fad4cc4141bab819a62038fb9e4c",
+        "title": "Untitled story",
+        "theme": "",
+        "audience": "",
+        "duration": 12,
+        "tone": "warm",
+        "format": "landscape",
+        "scenes": [],
+        "status": "brief",
+        "wizard": {}
+      },
+      {
+        "id": "ed06fad4cc4141bab819a62038fb9e4c",
+        "title": "The corner café",
+        "theme": "The corner café",
+        "audience": "our neighborhood",
+        "duration": 9,
+        "tone": "warm",
+        "format": "landscape",
+        "scenes": [
+          {
+            "id": "b23d3e59ac624993bf56f8022c852749",
+            "title": "A small beginning",
+            "caption": "The corner café starts with one idea.",
+            "seconds": 3,
+            "color": "#e78455",
+            "motion": "drift",
+            "asset": null
+          },
+          {
+            "id": "44c36a0cf19d4c378b09c97886e6988c",
+            "title": "Make room for possibility",
+            "caption": "A moment worth sharing with our neighborhood.",
+            "seconds": 3,
+            "color": "#b16649",
+            "motion": "rise",
+            "asset": null
+          },
+          {
+            "id": "d4310d2ca2334edbbc6de68c65801075",
+            "title": "Let the story continue",
+            "caption": "There is no better time to begin.",
+            "seconds": 3,
+            "color": "#cca468",
+            "motion": "pulse",
+            "asset": null
+          }
+        ],
+        "status": "storyboard",
+        "wizard": {}
+      },
+      {
+        "id": "ed06fad4cc4141bab819a62038fb9e4c",
+        "title": "The corner café",
+        "theme": "The corner café",
+        "audience": "our neighborhood",
+        "duration": 8,
+        "tone": "warm",
+        "format": "landscape",
+        "scenes": [
+          {
+            "id": "b23d3e59ac624993bf56f8022c852749",
+            "title": "A small beginning",
+            "caption": "The corner café starts with one idea.",
+            "seconds": 3,
+            "color": "#e78455",
+            "motion": "drift",
+            "asset": null
+          },
+          {
+            "id": "44c36a0cf19d4c378b09c97886e6988c",
+            "title": "Make room for possibility",
+            "caption": "A moment worth sharing with our neighborhood.",
+            "seconds": 2,
+            "color": "#b16649",
+            "motion": "rise",
+            "asset": null
+          },
+          {
+            "id": "d4310d2ca2334edbbc6de68c65801075",
+            "title": "Let the story continue",
+            "caption": "There is no better time to begin.",
+            "seconds": 3,
+            "color": "#cca468",
+            "motion": "pulse",
+            "asset": null
+          }
+        ],
+        "status": "storyboard",
+        "wizard": {}
+      }
+    ],
+    "messages": [
+      {
+        "role": "assistant",
+        "text": "Let’s make a small story worth sharing. Start with “Create a project” or choose a sample below. / 输入「创建项目」，我会逐项收集主题、受众、时长和语气。"
+      },
+      {
+        "role": "user",
+        "text": "Shorten scene 2"
+      },
+      {
+        "role": "assistant",
+        "text": "Storyboard updated and saved locally. / 分镜已更新并自动保存在本机。"
+      },
+      {
+        "role": "user",
+        "text": "Text 3: Your next chapter starts here."
+      },
+      {
+        "role": "assistant",
+        "text": "Storyboard updated and saved locally. / 分镜已更新并自动保存在本机。"
+      }
+    ]
+  },
+  "job_id": "dbfc687198af43dd85a5db214c563513",
+  "sha256": "ef9a198926839d492d7257906fb6b85eee9244dd7e3a5ffe02850fe7f20a782e",
+  "bytes": 109049,
+  "format": "landscape",
+  "duration": 8,
+  "renderer": "Pillow motion graphics + FFmpeg H.264; no neural model"
+}

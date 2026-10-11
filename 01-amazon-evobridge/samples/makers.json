@@ -1,0 +1,165 @@
+{
+  "project": {
+    "id": "9593656d14d440869f72025a536dfe00",
+    "title": "Build something that matters",
+    "theme": "Build something that matters",
+    "audience": "independent makers",
+    "duration": 8,
+    "tone": "bold",
+    "format": "landscape",
+    "scenes": [
+      {
+        "id": "7c59de2764414b30ae64f1832ea885bc",
+        "title": "A small beginning",
+        "caption": "Build something that matters starts with one idea.",
+        "seconds": 3,
+        "color": "#dd593f",
+        "motion": "drift",
+        "asset": null
+      },
+      {
+        "id": "bd40db4b8ce9475db4ad21f0703ea5a1",
+        "title": "Make room for possibility",
+        "caption": "A moment worth sharing with independent makers.",
+        "seconds": 2,
+        "color": "#417177",
+        "motion": "rise",
+        "asset": null
+      },
+      {
+        "id": "812c83496272459dac4057a917c23f30",
+        "title": "Let the story continue",
+        "caption": "Your next chapter starts here.",
+        "seconds": 3,
+        "color": "#d7a23d",
+        "motion": "pulse",
+        "asset": null
+      }
+    ],
+    "revision": 3,
+    "status": "storyboard",
+    "wizard": {},
+    "history": [
+      {
+        "id": "9593656d14d440869f72025a536dfe00",
+        "title": "Untitled story",
+        "theme": "",
+        "audience": "",
+        "duration": 12,
+        "tone": "warm",
+        "format": "landscape",
+        "scenes": [],
+        "status": "brief",
+        "wizard": {}
+      },
+      {
+        "id": "9593656d14d440869f72025a536dfe00",
+        "title": "Build something that matters",
+        "theme": "Build something that matters",
+        "audience": "independent makers",
+        "duration": 9,
+        "tone": "bold",
+        "format": "landscape",
+        "scenes": [
+          {
+            "id": "7c59de2764414b30ae64f1832ea885bc",
+            "title": "A small beginning",
+            "caption": "Build something that matters starts with one idea.",
+            "seconds": 3,
+            "color": "#dd593f",
+            "motion": "drift",
+            "asset": null
+          },
+          {
+            "id": "bd40db4b8ce9475db4ad21f0703ea5a1",
+            "title": "Make room for possibility",
+            "caption": "A moment worth sharing with independent makers.",
+            "seconds": 3,
+            "color": "#417177",
+            "motion": "rise",
+            "asset": null
+          },
+          {
+            "id": "812c83496272459dac4057a917c23f30",
+            "title": "Let the story continue",
+            "caption": "There is no better time to begin.",
+            "seconds": 3,
+            "color": "#d7a23d",
+            "motion": "pulse",
+            "asset": null
+          }
+        ],
+        "status": "storyboard",
+        "wizard": {}
+      },
+      {
+        "id": "9593656d14d440869f72025a536dfe00",
+        "title": "Build something that matters",
+        "theme": "Build something that matters",
+        "audience": "independent makers",
+        "duration": 8,
+        "tone": "bold",
+        "format": "landscape",
+        "scenes": [
+          {
+            "id": "7c59de2764414b30ae64f1832ea885bc",
+            "title": "A small beginning",
+            "caption": "Build something that matters starts with one idea.",
+            "seconds": 3,
+            "color": "#dd593f",
+            "motion": "drift",
+            "asset": null
+          },
+          {
+            "id": "bd40db4b8ce9475db4ad21f0703ea5a1",
+            "title": "Make room for possibility",
+            "caption": "A moment worth sharing with independent makers.",
+            "seconds": 2,
+            "color": "#417177",
+            "motion": "rise",
+            "asset": null
+          },
+          {
+            "id": "812c83496272459dac4057a917c23f30",
+            "title": "Let the story continue",
+            "caption": "There is no better time to begin.",
+            "seconds": 3,
+            "color": "#d7a23d",
+            "motion": "pulse",
+            "asset": null
+          }
+        ],
+        "status": "storyboard",
+        "wizard": {}
+      }
+    ],
+    "messages": [
+      {
+        "role": "assistant",
+        "text": "Let’s make a small story worth sharing. Start with “Create a project” or choose a sample below. / 输入「创建项目」，我会逐项收集主题、受众、时长和语气。"
+      },
+      {
+        "role": "user",
+        "text": "Shorten scene 2"
+      },
+      {
+        "role": "assistant",
+        "text": "Storyboard updated and saved locally. / 分镜已更新并自动保存在本机。"
+      },
+      {
+        "role": "user",
+        "text": "Text 3: Your next chapter starts here."
+      },
+      {
+        "role": "assistant",
+        "text": "Storyboard updated and saved locally. / 分镜已更新并自动保存在本机。"
+      }
+    ]
+  },
+  "job_id": "a6d2a7d311774c3aa12df82b33419901",
+  "sha256": "5febf11014d27a5c4d8dc5460259cb62a6e0b08bd23b9eb3f5e9ea5d41c26cba",
+  "bytes": 113365,
+  "format": "landscape",
+  "duration": 8,
+  "renderer": "Pillow motion graphics + FFmpeg H.264; no neural model"
+}
