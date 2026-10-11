@@ -1,0 +1,119 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: EvoVid Vision Director private OpenCV5 compute. Disabled by default. No deployment has been performed.
+Parameters:
+  EnableCompute:
+    Type: String
+    Default: 'false'
+    AllowedValues: ['false', 'true']
+    Description: Set true only after reviewing costs, IAM and deployment approval.
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+  PrivateSubnetId:
+    Type: AWS::EC2::Subnet::Id
+    Description: Existing private subnet with SSM, ECR, S3, package-repository connectivity.
+  AmiId:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64
+  ImageUri:
+    Type: String
+    AllowedPattern: '[0-9]{12}\.dkr\.ecr\.[a-z0-9-]+\.amazonaws\.com/[a-z0-9_./-]+@sha256:[a-f0-9]{64}'
+    Description: Existing private ECR image URI pinned by SHA-256 digest. Build and upload require separate authorization.
+  RepositoryArn:
+    Type: String
+    AllowedPattern: 'arn:aws:ecr:[a-z0-9-]+:[0-9]{12}:repository/[a-z0-9_./-]+'
+    Description: Exact repository ARN for the image, used to scope pull permissions.
+  InstanceType:
+    Type: String
+    Default: t3.small
+    AllowedValues: [t3.small, t3.medium]
+Conditions:
+  ComputeApproved: !Equals [!Ref EnableCompute, 'true']
+Resources:
+  SecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Condition: ComputeApproved
+    Properties:
+      GroupDescription: No inbound network access; SSM port forwarding only.
+      VpcId: !Ref VpcId
+      SecurityGroupEgress:
+        - IpProtocol: tcp
+          FromPort: 443
+          ToPort: 443
+          CidrIp: 0.0.0.0/0
+  Role:
+    Type: AWS::IAM::Role
+    Condition: ComputeApproved
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: {Service: ec2.amazonaws.com}
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+      Policies:
+        - PolicyName: PullExactVisionRepository
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: ecr:GetAuthorizationToken
+                Resource: '*'
+              - Effect: Allow
+                Action: [ecr:BatchCheckLayerAvailability, ecr:GetDownloadUrlForLayer, ecr:BatchGetImage]
+                Resource: !Ref RepositoryArn
+  Profile:
+    Type: AWS::IAM::InstanceProfile
+    Condition: ComputeApproved
+    Properties:
+      Roles: [!Ref Role]
+  Workstation:
+    Type: AWS::EC2::Instance
+    Condition: ComputeApproved
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      ImageId: !Ref AmiId
+      InstanceType: !Ref InstanceType
+      IamInstanceProfile: !Ref Profile
+      Monitoring: false
+      CreditSpecification: {CPUCredits: standard}
+      MetadataOptions: {HttpEndpoint: enabled, HttpTokens: required, HttpPutResponseHopLimit: 1}
+      NetworkInterfaces:
+        - DeviceIndex: '0'
+          AssociatePublicIpAddress: false
+          SubnetId: !Ref PrivateSubnetId
+          GroupSet: [!Ref SecurityGroup]
+      BlockDeviceMappings:
+        - DeviceName: /dev/xvda
+          Ebs: {VolumeType: gp3, VolumeSize: 30, Encrypted: true, DeleteOnTermination: false}
+      Tags:
+        - {Key: Name, Value: evovid-vision-director-private}
+        - {Key: Purpose, Value: opt-in-competition-evaluation}
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          set -euo pipefail
+          dnf install -y docker awscli2 openssl
+          systemctl enable --now docker
+          install -d -m 700 /opt/vision
+          install -d -m 700 -o 10001 -g 10001 /opt/vision/runtime
+          TOKEN=$(openssl rand -hex 32)
+          printf 'VISION_ACCESS_TOKEN=%s\nVISION_EXECUTION_ENV=aws-ec2\n' "$TOKEN" > /opt/vision/app.env
+          chmod 600 /opt/vision/app.env
+          IMAGE='${ImageUri}'
+          REGISTRY=$(printf '%s' "$IMAGE" | cut -d/ -f1)
+          aws ecr get-login-password --region '${AWS::Region}' | docker login --username AWS --password-stdin "$REGISTRY"
+          docker pull "$IMAGE"
+          docker logout "$REGISTRY"
+          docker run -d --name vision --restart unless-stopped --cpus 1.5 --memory 1500m --pids-limit 128 \
+            --read-only --tmpfs /tmp:rw,noexec,nosuid,size=256m --cap-drop ALL --security-opt no-new-privileges \
+            -p 127.0.0.1:8712:8712 --env-file /opt/vision/app.env -v /opt/vision/runtime:/app/runtime "$IMAGE"
+Outputs:
+  InstanceId:
+    Condition: ComputeApproved
+    Value: !Ref Workstation
+  Access:
+    Condition: ComputeApproved
+    Value: Use AWS-StartPortForwardingSession through SSM. No public application endpoint exists.
