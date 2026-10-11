@@ -1,0 +1,3 @@
+# Exact runtime dependency versions; no transitive Python dependencies.
+Pillow==12.3.0
+imageio-ffmpeg==0.6.0

@@ -1,0 +1,79 @@
+{
+  "project": "EvoBridge Creator Assistant",
+  "version": "1.0.0",
+  "updated_date": "2026-10-11",
+  "track": "Alexa+ web experience simulation",
+  "runtime": "Bounded deterministic rules; no Alexa service, device, SDK, runtime LLM or neural video generation",
+  "entry": {
+    "windows": "start.bat",
+    "linux_macos": "bash start.sh",
+    "url": "http://127.0.0.1:8711",
+    "port_environment": "PORT",
+    "requires": "Python 3.11 or 3.12; network to PyPI for first dependency installation",
+    "ffmpeg": "System binary preferred; otherwise installed imageio-ffmpeg wheel binary; no model downloads"
+  },
+  "passed": {
+    "python_unit_tests": 17,
+    "independent_http_checks": 52,
+    "independent_jsdom_checks": 7,
+    "javascript_syntax": true,
+    "clean_venv_install": true,
+    "hashed_lock_fresh_directory_install": true,
+    "fresh_directory_startup_and_http": true,
+    "real_render_themes": 3,
+    "real_render_durations_seconds": [
+      8,
+      11,
+      8
+    ],
+    "codec": "H.264",
+    "landscape_dimensions": [
+      960,
+      540
+    ],
+    "portrait_dimensions": [
+      540,
+      960
+    ],
+    "real_render_cancellation": true,
+    "duplicate_render_idempotency": true,
+    "injected_failure_and_real_retry": true,
+    "restart_persistence": true,
+    "unicode_cjk": true,
+    "json_restore_new_project": true
+  },
+  "not_tested": [
+    "Real-browser layout, mobile layout, video playback, keyboard and complete UI flow",
+    "Windows and macOS execution",
+    "Actual Alexa+ service, SDK, device or LLM integration (not implemented or required for this simulator)"
+  ],
+  "external_blockers": [
+    "Browser launch is blocked by OS socket permissions; available cloud browser cannot open the app in this executor",
+    "No real UI demo recording or public YouTube/Vimeo link",
+    "No supplied pre-2026-08-31 baseline in shallow upstream checkout",
+    "Public repository/judge sharing, entrant eligibility and final submission require owner action"
+  ],
+  "not_performed": [
+    "Public deployment",
+    "Public repository push or sharing changes",
+    "Video upload",
+    "Credential creation",
+    "Payment",
+    "Competition submission"
+  ],
+  "artifacts": [
+    "samples/cafe.mp4",
+    "samples/garden-zh.mp4",
+    "samples/makers.mp4",
+    "samples/*.json",
+    "samples/*-frame.png",
+    "docs/DEMO_SCRIPT.md",
+    "docs/TEST_REPORT.md",
+    "evidence/PUBLIC_VERIFICATION.md",
+    "evidence/render-tests.json"
+  ],
+  "upstream_sha": "31255c83ff1f57143c5cf819c6e7a6bf8fc12fbe",
+  "ui_verification_scope": "Seven jsdom checks with real HTTP; not browser rendering or video playback",
+  "demo_recording_status": "Not recorded; script only",
+  "public_source_note": "Historical build status retained; raw execution logs, internal QA artifacts, runtime/session data and old package inventories are excluded. See evidence/PUBLIC_VERIFICATION.md and ../PUBLIC-MANIFEST.json."
+}
